@@ -1,4 +1,4 @@
-# Multivariate kriging: code and experiments
+# Reproducibility material for paper "When is multivariate kriging worthwhile? Design geometry, parameter sharing and response coupling under heterotopic sampling"
 
 This package contains the scientific implementation, experiment configurations,
 required input data and compact results for the manuscript and supplementary
