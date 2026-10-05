@@ -1,0 +1,806 @@
+{
+  "experiment_id": "E7",
+  "scenarios": [
+    {
+      "id": "P01_correlation_only",
+      "design_id": "P01",
+      "geometry": "isotopic",
+      "rho": 0.0,
+      "n1": 20,
+      "n2": 20,
+      "dimension": 1,
+      "lengthscale": 0.15,
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "noise_variance": [
+        0.05,
+        0.05
+      ],
+      "correlation": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "kernel": "matern32",
+      "fit_mode": "correlation_only",
+      "evaluation_replicates": 500,
+      "bootstrap_outer_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "P01_full",
+      "design_id": "P01",
+      "geometry": "isotopic",
+      "rho": 0.0,
+      "n1": 20,
+      "n2": 20,
+      "dimension": 1,
+      "lengthscale": 0.15,
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "noise_variance": [
+        0.05,
+        0.05
+      ],
+      "correlation": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "kernel": "matern32",
+      "fit_mode": "full",
+      "evaluation_replicates": 500,
+      "bootstrap_outer_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "P02_correlation_only",
+      "design_id": "P02",
+      "geometry": "isotopic",
+      "rho": 0.7,
+      "n1": 20,
+      "n2": 20,
+      "dimension": 1,
+      "lengthscale": 0.15,
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "noise_variance": [
+        0.05,
+        0.05
+      ],
+      "correlation": [
+        [
+          1.0,
+          0.7
+        ],
+        [
+          0.7,
+          1.0
+        ]
+      ],
+      "kernel": "matern32",
+      "fit_mode": "correlation_only",
+      "evaluation_replicates": 500,
+      "bootstrap_outer_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "P02_full",
+      "design_id": "P02",
+      "geometry": "isotopic",
+      "rho": 0.7,
+      "n1": 20,
+      "n2": 20,
+      "dimension": 1,
+      "lengthscale": 0.15,
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "noise_variance": [
+        0.05,
+        0.05
+      ],
+      "correlation": [
+        [
+          1.0,
+          0.7
+        ],
+        [
+          0.7,
+          1.0
+        ]
+      ],
+      "kernel": "matern32",
+      "fit_mode": "full",
+      "evaluation_replicates": 500,
+      "bootstrap_outer_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "P03_correlation_only",
+      "design_id": "P03",
+      "geometry": "interleaved",
+      "rho": 0.0,
+      "n1": 20,
+      "n2": 20,
+      "dimension": 1,
+      "lengthscale": 0.15,
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "noise_variance": [
+        0.05,
+        0.05
+      ],
+      "correlation": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "kernel": "matern32",
+      "fit_mode": "correlation_only",
+      "evaluation_replicates": 500,
+      "bootstrap_outer_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "P03_full",
+      "design_id": "P03",
+      "geometry": "interleaved",
+      "rho": 0.0,
+      "n1": 20,
+      "n2": 20,
+      "dimension": 1,
+      "lengthscale": 0.15,
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "noise_variance": [
+        0.05,
+        0.05
+      ],
+      "correlation": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "kernel": "matern32",
+      "fit_mode": "full",
+      "evaluation_replicates": 500,
+      "bootstrap_outer_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "P04_correlation_only",
+      "design_id": "P04",
+      "geometry": "interleaved",
+      "rho": 0.7,
+      "n1": 20,
+      "n2": 20,
+      "dimension": 1,
+      "lengthscale": 0.15,
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "noise_variance": [
+        0.05,
+        0.05
+      ],
+      "correlation": [
+        [
+          1.0,
+          0.7
+        ],
+        [
+          0.7,
+          1.0
+        ]
+      ],
+      "kernel": "matern32",
+      "fit_mode": "correlation_only",
+      "evaluation_replicates": 500,
+      "bootstrap_outer_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "P04_full",
+      "design_id": "P04",
+      "geometry": "interleaved",
+      "rho": 0.7,
+      "n1": 20,
+      "n2": 20,
+      "dimension": 1,
+      "lengthscale": 0.15,
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "noise_variance": [
+        0.05,
+        0.05
+      ],
+      "correlation": [
+        [
+          1.0,
+          0.7
+        ],
+        [
+          0.7,
+          1.0
+        ]
+      ],
+      "kernel": "matern32",
+      "fit_mode": "full",
+      "evaluation_replicates": 500,
+      "bootstrap_outer_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "P05_correlation_only",
+      "design_id": "P05",
+      "geometry": "separated",
+      "rho": 0.0,
+      "n1": 20,
+      "n2": 20,
+      "dimension": 1,
+      "lengthscale": 0.15,
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "noise_variance": [
+        0.05,
+        0.05
+      ],
+      "correlation": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "kernel": "matern32",
+      "fit_mode": "correlation_only",
+      "evaluation_replicates": 500,
+      "bootstrap_outer_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "P05_full",
+      "design_id": "P05",
+      "geometry": "separated",
+      "rho": 0.0,
+      "n1": 20,
+      "n2": 20,
+      "dimension": 1,
+      "lengthscale": 0.15,
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "noise_variance": [
+        0.05,
+        0.05
+      ],
+      "correlation": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "kernel": "matern32",
+      "fit_mode": "full",
+      "evaluation_replicates": 500,
+      "bootstrap_outer_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "P06_correlation_only",
+      "design_id": "P06",
+      "geometry": "separated",
+      "rho": 0.7,
+      "n1": 20,
+      "n2": 20,
+      "dimension": 1,
+      "lengthscale": 0.15,
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "noise_variance": [
+        0.05,
+        0.05
+      ],
+      "correlation": [
+        [
+          1.0,
+          0.7
+        ],
+        [
+          0.7,
+          1.0
+        ]
+      ],
+      "kernel": "matern32",
+      "fit_mode": "correlation_only",
+      "evaluation_replicates": 500,
+      "bootstrap_outer_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "P06_full",
+      "design_id": "P06",
+      "geometry": "separated",
+      "rho": 0.7,
+      "n1": 20,
+      "n2": 20,
+      "dimension": 1,
+      "lengthscale": 0.15,
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "noise_variance": [
+        0.05,
+        0.05
+      ],
+      "correlation": [
+        [
+          1.0,
+          0.7
+        ],
+        [
+          0.7,
+          1.0
+        ]
+      ],
+      "kernel": "matern32",
+      "fit_mode": "full",
+      "evaluation_replicates": 500,
+      "bootstrap_outer_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    }
+  ],
+  "fit_config": {
+    "kernel": "matern32",
+    "ard": false,
+    "maxiter": 1000,
+    "ftol": 1e-08,
+    "gtol": 1e-05,
+    "lengthscale_bounds": [
+      0.01,
+      3.0
+    ],
+    "signal_variance_bounds": [
+      0.0025,
+      25.0
+    ],
+    "noise_variance_bounds": [
+      1e-06,
+      2.0
+    ],
+    "partial_correlation_limit": 0.995,
+    "jitter_scale": 1.0,
+    "jitter_ladder": [
+      1e-10,
+      1e-09,
+      1e-08,
+      1e-07,
+      1e-06,
+      1e-05
+    ],
+    "starts": 4
+  },
+  "bootstrap_draws": 200,
+  "pilot_bootstrap_draws": 10,
+  "material_fractions": [
+    0.0,
+    0.01,
+    0.02,
+    0.05
+  ],
+  "validation_folds": 4,
+  "information_convention": "full-sample, same identified coordinates as optimiser",
+  "information_min_eigenvalue": "greater than 1e-10 times max(1,largest eigenvalue)",
+  "observed_hessian": "central gradient differences, steps 1e-4 and 5e-5 times max(1,abs(theta)); unavailable if discrepancy >1e-3",
+  "bootstrap_reference": "fitted joint covariance; both reference predictors evaluated on same Y_b as refits; marginal implied by joint reference",
+  "selection_rule": "fitted oracle gain minus joint-minus-independent penalty exceeds epsilon*(fitted reference marginal variance+independent penalty); unavailable diagnostics fall back to direct validation",
+  "seed_convention": "independent within design; full/correlation-only arms paired by design_id and replication"
+}

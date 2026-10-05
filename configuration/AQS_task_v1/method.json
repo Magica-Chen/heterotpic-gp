@@ -1,0 +1,57 @@
+{
+  "experiment_id": "AQS_task_reanalysis",
+  "model_order": [
+    "mean",
+    "nearest",
+    "idw5",
+    "linear_trend",
+    "independent",
+    "shared",
+    "joint"
+  ],
+  "fit_config": {
+    "kernel": "matern32",
+    "ard": false,
+    "maxiter": 1000,
+    "ftol": 1e-08,
+    "gtol": 1e-05,
+    "lengthscale_bounds": [
+      0.01,
+      3.0
+    ],
+    "signal_variance_bounds": [
+      0.0025,
+      25.0
+    ],
+    "noise_variance_bounds": [
+      1e-06,
+      2.0
+    ],
+    "partial_correlation_limit": 0.995,
+    "jitter_scale": 1.0,
+    "jitter_ladder": [
+      1e-10,
+      1e-09,
+      1e-08,
+      1e-07,
+      1e-06,
+      1e-05
+    ],
+    "starts": 4
+  },
+  "variants": [
+    "primary",
+    "instrument_mean"
+  ],
+  "outer_training_datasets_per_variant": 910,
+  "scaling": "Separate pollutant training-only arithmetic means and sample standard deviations, repeated in every outer split; predictions inverse-transformed to each physical unit.",
+  "covariance": "Exact float64 Matern32 isotropic in the frozen state projection, unit base variance; fitted signal/noise variances. IND-SEPARATE uses only each output. IND-SHARED has exactly diagonal output covariance and a common scale estimated from all training responses. MV-SEP estimates a full3x3 output covariance and common scale.",
+  "starts": "Four complete starts with the same core bounds, tolerances and numerical jitter ladder. Marginal fits give the N-weighted geometric common-scale initialization for both shared and joint fits. Shared fits fix correlation coordinates at zero and use the same nuisance-start schedule as joint fits.",
+  "means": "Centered-zero working GP mean; the fitted constant is training-only. Conditional predictive variances do not propagate covariance or centering uncertainty. A separately fitted OLS plane supplies the spatial-trend point baseline.",
+  "baselines": "Training mean, Euclidean nearest neighbour, five-neighbour inverse-distance weighting power2 with zero-distance average, and OLS intercept/x/y plane. These four are point predictors without asserted predictive-density models.",
+  "failure": "Retain every failed/bound start and fit. A failed joint/shared fit uses the corresponding independent predictor; a failed independent fit uses its training-mean/variance fallback. The frozen data partitions all have at least3 training sites per pollutant.",
+  "validation": "Use frozen A/B/C outer folds and all buffer multiples. Primary comparison has no selected/tuned model catalogue: every declared model is evaluated once per outer test record. No outer test response enters any fitted parameter, transform or baseline.",
+  "instrument_sensitivity": "Repeat the same models and folds using the predeclared equal-instrument annual mean. Evaluation also uses that aggregate definition; do not treat different response definitions as identical numerical truth.",
+  "uncertainty": "Paired spatial-block bootstrap of site-aggregated repeated OOF losses,2000 resamples with all repeats for a site together; coordinate-defined blocks fixed independently of model outcomes. Intervals condition on fitted predictions and do not include refitting uncertainty.",
+  "scope": "Primary exact/separable models with instrument-definition and buffer sensitivities."
+}

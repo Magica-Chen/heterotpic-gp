@@ -1,0 +1,46 @@
+{
+  "experiment_id": "AQS_LMC_sensitivity",
+  "fit_config": {
+    "kernel": "matern32",
+    "ard": false,
+    "maxiter": 1000,
+    "ftol": 1e-08,
+    "gtol": 1e-05,
+    "lengthscale_bounds": [
+      0.01,
+      3.0
+    ],
+    "signal_variance_bounds": [
+      0.0025,
+      25.0
+    ],
+    "noise_variance_bounds": [
+      1e-06,
+      2.0
+    ],
+    "partial_correlation_limit": 0.995,
+    "jitter_scale": 1.0,
+    "jitter_ladder": [
+      1e-10,
+      1e-09,
+      1e-08,
+      1e-07,
+      1e-06,
+      1e-05
+    ],
+    "starts": 4
+  },
+  "model_order": [
+    "independent",
+    "mixture_independent",
+    "separable",
+    "lmc"
+  ],
+  "training_splits": 650,
+  "scope": "All primary-instrument A/B/C splits with zero buffer, all3 states/pollutants and10 repeats. Instrument/buffer sensitivities remain in the primary exact/separable study; they are not rerun for this richer family.",
+  "model": "Sum of two Mat\u00e9rn32 kernels with distinct scalar scales and full positive-definite3x3 coregionalization matrices. Each component uses output variances and valid partial correlations; component labels are interchangeable, and no unique component-loading interpretation is claimed.",
+  "fairness": "Each component variance constrained to half the primary separable output-variance bounds, giving the same total diagonal range. Target-only two-kernel mixture has these same component bounds. Noise/scale bounds and float64 optimizer tolerances match the primary study. Four complete training-only starts per fit.",
+  "mean": "Same training-only centering/scaling and zero-centered working mean as the primary comparison. No outer test outcomes enter any fitted parameter.",
+  "fallback": "Failed mixture predictions use primary separate fit; failed LMC uses mixture-independent predictions. Preserve all starts, bounds and failures.",
+  "comparison": "Compare richer borrowing against its own mixture-independent baseline as well as the primary single-kernel independent fit. Improvement due to marginal flexibility is not assigned automatically to borrowing."
+}

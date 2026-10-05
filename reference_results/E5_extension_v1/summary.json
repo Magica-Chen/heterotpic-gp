@@ -1,0 +1,1634 @@
+{
+  "datasets": 1800,
+  "results": [
+    {
+      "family": "separable",
+      "geometry": "isotopic",
+      "method": "correlation_only_independent",
+      "datasets": 300,
+      "risk": 0.01606277172256992,
+      "risk_ci95": [
+        0.016045377088513054,
+        0.016080115816641247
+      ],
+      "latent_mse": 0.01619918975059585,
+      "latent_mse_ci95": [
+        0.015668438089801777,
+        0.01674252635479366
+      ],
+      "rmse": 0.1258712926683571,
+      "rmse_ci95": [
+        0.12376864715969077,
+        0.12804059692447212
+      ],
+      "observed_mse": 0.02636117028212204,
+      "observed_mse_ci95": [
+        0.025715914824654424,
+        0.02702608012733504
+      ],
+      "mlpd": 0.40780549379372977,
+      "mlpd_ci95": [
+        0.3952925109062519,
+        0.4200523339173285
+      ],
+      "coverage95": 0.9475555555555553,
+      "coverage95_ci95": [
+        0.9442493055555556,
+        0.9508333333333333
+      ],
+      "width95": 0.630094950013784,
+      "width95_ci95": [
+        0.6300949500137819,
+        0.6300949500137819
+      ],
+      "risk_reduction_vs_own_independent_percent": 0.0,
+      "risk_reduction_vs_own_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "risk_reduction_vs_full_independent_percent": 25.673476621454927,
+      "risk_reduction_vs_full_independent_ci95": [
+        20.260603250296917,
+        30.918644147268164
+      ],
+      "paired_rmse_improvement": 0.0010263608846007716,
+      "paired_rmse_improvement_ci95": [
+        0.00047759069930786537,
+        0.0015582839912632873
+      ],
+      "paired_mlpd_improvement": 0.006162439696446864,
+      "paired_mlpd_improvement_ci95": [
+        0.003199495052324937,
+        0.009134422267825428
+      ],
+      "active_bound_count": 0,
+      "above_gradient_tolerance_count": 0,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "separable",
+      "geometry": "isotopic",
+      "method": "correlation_only_joint",
+      "datasets": 300,
+      "risk": 0.015825469760146926,
+      "risk_ci95": [
+        0.01580529754237211,
+        0.015847285968215417
+      ],
+      "latent_mse": 0.015917861936294735,
+      "latent_mse_ci95": [
+        0.01539729396118599,
+        0.016426893602992956
+      ],
+      "rmse": 0.12484493178375632,
+      "rmse_ci95": [
+        0.12281174017312742,
+        0.12684843537347212
+      ],
+      "observed_mse": 0.026053154344716407,
+      "observed_mse_ci95": [
+        0.025433929671277642,
+        0.026686515154531867
+      ],
+      "mlpd": 0.41396793349017663,
+      "mlpd_ci95": [
+        0.4021636454848637,
+        0.4256490515282234
+      ],
+      "coverage95": 0.9474444444444446,
+      "coverage95_ci95": [
+        0.9442222222222221,
+        0.9506395833333332
+      ],
+      "width95": 0.6247019216522799,
+      "width95_ci95": [
+        0.6243070595807912,
+        0.6250952368319389
+      ],
+      "risk_reduction_vs_own_independent_percent": 1.4773413114597123,
+      "risk_reduction_vs_own_independent_ci95": [
+        1.3100124262954451,
+        1.6415355624196768
+      ],
+      "risk_reduction_vs_full_independent_percent": 26.771533056697937,
+      "risk_reduction_vs_full_independent_ci95": [
+        21.449035449124118,
+        32.00225530391424
+      ],
+      "paired_rmse_improvement": 0.0010263608846007716,
+      "paired_rmse_improvement_ci95": [
+        0.00047759069930786537,
+        0.0015582839912632873
+      ],
+      "paired_mlpd_improvement": 0.006162439696446864,
+      "paired_mlpd_improvement_ci95": [
+        0.003199495052324937,
+        0.009134422267825428
+      ],
+      "active_bound_count": 0,
+      "above_gradient_tolerance_count": 0,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "separable",
+      "geometry": "isotopic",
+      "method": "full_independent",
+      "datasets": 300,
+      "risk": 0.021611089813473726,
+      "risk_ci95": [
+        0.020150520149273203,
+        0.02325483406486425
+      ],
+      "latent_mse": 0.021984474464176996,
+      "latent_mse_ci95": [
+        0.020138247515459857,
+        0.02400807030916263
+      ],
+      "rmse": 0.1425713955532929,
+      "rmse_ci95": [
+        0.13785304961095032,
+        0.14725204641362083
+      ],
+      "observed_mse": 0.03215384490978106,
+      "observed_mse_ci95": [
+        0.030370371904853113,
+        0.034174016997355276
+      ],
+      "mlpd": -49.704749671677675,
+      "mlpd_ci95": [
+        -58.41772798549874,
+        -41.40362424796154
+      ],
+      "coverage95": 0.7920833333333334,
+      "coverage95_ci95": [
+        0.7704381944444445,
+        0.8134729166666668
+      ],
+      "width95": 0.6422425648094492,
+      "width95_ci95": [
+        0.5991830627356834,
+        0.6858131070688803
+      ],
+      "risk_reduction_vs_own_independent_percent": 0.0,
+      "risk_reduction_vs_own_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "risk_reduction_vs_full_independent_percent": 0.0,
+      "risk_reduction_vs_full_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_rmse_improvement": 0.0012927597287191728,
+      "paired_rmse_improvement_ci95": [
+        -0.003928178448163646,
+        0.006440148451250053
+      ],
+      "paired_mlpd_improvement": 8.588192371026267,
+      "paired_mlpd_improvement_ci95": [
+        0.5171537297251004,
+        17.08066851874112
+      ],
+      "active_bound_count": 157,
+      "above_gradient_tolerance_count": 76,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "separable",
+      "geometry": "isotopic",
+      "method": "full_joint",
+      "datasets": 300,
+      "risk": 0.021535041148896577,
+      "risk_ci95": [
+        0.019756680360591024,
+        0.02350162577979281
+      ],
+      "latent_mse": 0.02194618736505576,
+      "latent_mse_ci95": [
+        0.019921213321560296,
+        0.024160861696031734
+      ],
+      "rmse": 0.14127863582457373,
+      "rmse_ci95": [
+        0.13654023452474617,
+        0.14650094604596428
+      ],
+      "observed_mse": 0.03207938587161909,
+      "observed_mse_ci95": [
+        0.029995180635871598,
+        0.03438977118762703
+      ],
+      "mlpd": -41.11655730065141,
+      "mlpd_ci95": [
+        -49.48307957962144,
+        -32.95664356876947
+      ],
+      "coverage95": 0.8000555555555554,
+      "coverage95_ci95": [
+        0.7776090277777777,
+        0.8223923611111109
+      ],
+      "width95": 0.6050262689922394,
+      "width95_ci95": [
+        0.5658664622938842,
+        0.6460458665562341
+      ],
+      "risk_reduction_vs_own_independent_percent": 0.3518964810823033,
+      "risk_reduction_vs_own_independent_ci95": [
+        -9.694028833918724,
+        9.678628715710623
+      ],
+      "risk_reduction_vs_full_independent_percent": 0.3518964810823033,
+      "risk_reduction_vs_full_independent_ci95": [
+        -9.694028833918724,
+        9.678628715710623
+      ],
+      "paired_rmse_improvement": 0.0012927597287191728,
+      "paired_rmse_improvement_ci95": [
+        -0.003928178448163646,
+        0.006440148451250053
+      ],
+      "paired_mlpd_improvement": 8.588192371026267,
+      "paired_mlpd_improvement_ci95": [
+        0.5171537297251004,
+        17.08066851874112
+      ],
+      "active_bound_count": 195,
+      "above_gradient_tolerance_count": 270,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "separable",
+      "geometry": "interleaved",
+      "method": "correlation_only_independent",
+      "datasets": 300,
+      "risk": 0.016084073063926285,
+      "risk_ci95": [
+        0.01601019151150518,
+        0.01615768669346437
+      ],
+      "latent_mse": 0.016701157145870425,
+      "latent_mse_ci95": [
+        0.01610424793559798,
+        0.017291244640562625
+      ],
+      "rmse": 0.12764876712716175,
+      "rmse_ci95": [
+        0.1253995718938993,
+        0.12983544475298434
+      ],
+      "observed_mse": 0.02672541941954972,
+      "observed_mse_ci95": [
+        0.02605191028131685,
+        0.02739882171428412
+      ],
+      "mlpd": 0.4018710220049629,
+      "mlpd_ci95": [
+        0.3894377817825508,
+        0.4143496365177138
+      ],
+      "coverage95": 0.9471388888888881,
+      "coverage95_ci95": [
+        0.9438611111111113,
+        0.9503618055555556
+      ],
+      "width95": 0.630094950013784,
+      "width95_ci95": [
+        0.6300949500137819,
+        0.6300949500137819
+      ],
+      "risk_reduction_vs_own_independent_percent": 0.0,
+      "risk_reduction_vs_own_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "risk_reduction_vs_full_independent_percent": 29.338109756805043,
+      "risk_reduction_vs_full_independent_ci95": [
+        24.094180616954592,
+        34.62062309590607
+      ],
+      "paired_rmse_improvement": 0.004152896088873856,
+      "paired_rmse_improvement_ci95": [
+        0.0033263363765958127,
+        0.005040819300049456
+      ],
+      "paired_mlpd_improvement": 0.017273770800359523,
+      "paired_mlpd_improvement_ci95": [
+        0.01300551644246463,
+        0.021823207232230003
+      ],
+      "active_bound_count": 0,
+      "above_gradient_tolerance_count": 0,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "separable",
+      "geometry": "interleaved",
+      "method": "correlation_only_joint",
+      "datasets": 300,
+      "risk": 0.015081466220203434,
+      "risk_ci95": [
+        0.015040839632698977,
+        0.015139734913956874
+      ],
+      "latent_mse": 0.01563515273930983,
+      "latent_mse_ci95": [
+        0.015095948646510093,
+        0.016212534795937265
+      ],
+      "rmse": 0.1234958710382879,
+      "rmse_ci95": [
+        0.12134643544664243,
+        0.12573844861549685
+      ],
+      "observed_mse": 0.025710755848131265,
+      "observed_mse_ci95": [
+        0.02508912435308133,
+        0.026344674305645008
+      ],
+      "mlpd": 0.4191447928053224,
+      "mlpd_ci95": [
+        0.4065675409470279,
+        0.43147514113555757
+      ],
+      "coverage95": 0.9454999999999993,
+      "coverage95_ci95": [
+        0.9421659722222224,
+        0.9486944444444443
+      ],
+      "width95": 0.614093094747212,
+      "width95_ci95": [
+        0.6132473638977746,
+        0.6149447913582413
+      ],
+      "risk_reduction_vs_own_independent_percent": 6.233538232125547,
+      "risk_reduction_vs_own_independent_ci95": [
+        5.75166845873549,
+        6.68343284431592
+      ],
+      "risk_reduction_vs_full_independent_percent": 33.742845700657185,
+      "risk_reduction_vs_full_independent_ci95": [
+        28.794006308532428,
+        38.668185994727615
+      ],
+      "paired_rmse_improvement": 0.004152896088873856,
+      "paired_rmse_improvement_ci95": [
+        0.0033263363765958127,
+        0.005040819300049456
+      ],
+      "paired_mlpd_improvement": 0.017273770800359523,
+      "paired_mlpd_improvement_ci95": [
+        0.01300551644246463,
+        0.021823207232230003
+      ],
+      "active_bound_count": 0,
+      "above_gradient_tolerance_count": 0,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "separable",
+      "geometry": "interleaved",
+      "method": "full_independent",
+      "datasets": 300,
+      "risk": 0.0227620192561651,
+      "risk_ci95": [
+        0.02119561737563871,
+        0.024554221576220205
+      ],
+      "latent_mse": 0.023356627703988147,
+      "latent_mse_ci95": [
+        0.021667974452212063,
+        0.025251592859120434
+      ],
+      "rmse": 0.1467554058762672,
+      "rmse_ci95": [
+        0.14213939784075927,
+        0.15170984029991577
+      ],
+      "observed_mse": 0.033320965401957586,
+      "observed_mse_ci95": [
+        0.03158953518388679,
+        0.03525556051488207
+      ],
+      "mlpd": -36.737917714122894,
+      "mlpd_ci95": [
+        -44.107559078300405,
+        -29.910978152455627
+      ],
+      "coverage95": 0.8207222222222227,
+      "coverage95_ci95": [
+        0.8018319444444447,
+        0.8412006944444446
+      ],
+      "width95": 0.6762992185906825,
+      "width95_ci95": [
+        0.6363822915771778,
+        0.7188617932335621
+      ],
+      "risk_reduction_vs_own_independent_percent": 0.0,
+      "risk_reduction_vs_own_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "risk_reduction_vs_full_independent_percent": 0.0,
+      "risk_reduction_vs_full_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_rmse_improvement": 0.0065532673568422795,
+      "paired_rmse_improvement_ci95": [
+        0.0023406035355076917,
+        0.01092041038665328
+      ],
+      "paired_mlpd_improvement": -2.0543421794378105,
+      "paired_mlpd_improvement_ci95": [
+        -10.196466159587372,
+        5.58488380757441
+      ],
+      "active_bound_count": 134,
+      "above_gradient_tolerance_count": 101,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "separable",
+      "geometry": "interleaved",
+      "method": "full_joint",
+      "datasets": 300,
+      "risk": 0.020422476805790585,
+      "risk_ci95": [
+        0.0190205460582375,
+        0.022000022683316245
+      ],
+      "latent_mse": 0.02119716286151793,
+      "latent_mse_ci95": [
+        0.019488366764877307,
+        0.023093911710539355
+      ],
+      "rmse": 0.14020213851942492,
+      "rmse_ci95": [
+        0.13579072201087045,
+        0.14472574862451582
+      ],
+      "observed_mse": 0.03135828715803226,
+      "observed_mse_ci95": [
+        0.029587760229623096,
+        0.033331184858362006
+      ],
+      "mlpd": -38.792259893560704,
+      "mlpd_ci95": [
+        -47.22935043686644,
+        -30.902677385168694
+      ],
+      "coverage95": 0.8153888888888878,
+      "coverage95_ci95": [
+        0.7946659722222225,
+        0.8367819444444444
+      ],
+      "width95": 0.6380303767357784,
+      "width95_ci95": [
+        0.6002520216805601,
+        0.67622114847372
+      ],
+      "risk_reduction_vs_own_independent_percent": 10.278272872213867,
+      "risk_reduction_vs_own_independent_ci95": [
+        2.9502091379459774,
+        17.28021469186364
+      ],
+      "risk_reduction_vs_full_independent_percent": 10.278272872213867,
+      "risk_reduction_vs_full_independent_ci95": [
+        2.9502091379459774,
+        17.28021469186364
+      ],
+      "paired_rmse_improvement": 0.0065532673568422795,
+      "paired_rmse_improvement_ci95": [
+        0.0023406035355076917,
+        0.01092041038665328
+      ],
+      "paired_mlpd_improvement": -2.0543421794378105,
+      "paired_mlpd_improvement_ci95": [
+        -10.196466159587372,
+        5.58488380757441
+      ],
+      "active_bound_count": 179,
+      "above_gradient_tolerance_count": 271,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "separable",
+      "geometry": "separated",
+      "method": "correlation_only_independent",
+      "datasets": 300,
+      "risk": 0.016058265539773957,
+      "risk_ci95": [
+        0.016057921258335734,
+        0.016058625107458643
+      ],
+      "latent_mse": 0.015415660054265598,
+      "latent_mse_ci95": [
+        0.014907798021781759,
+        0.01596100079887136
+      ],
+      "rmse": 0.12273181878849361,
+      "rmse_ci95": [
+        0.12071061365759124,
+        0.12482477479371183
+      ],
+      "observed_mse": 0.025556435267470656,
+      "observed_mse_ci95": [
+        0.024962311379080566,
+        0.02615743873071485
+      ],
+      "mlpd": 0.4228522295702074,
+      "mlpd_ci95": [
+        0.41125122665787933,
+        0.4339699623221131
+      ],
+      "coverage95": 0.9529166666666669,
+      "coverage95_ci95": [
+        0.950027777777778,
+        0.9557499999999999
+      ],
+      "width95": 0.630094950013784,
+      "width95_ci95": [
+        0.6300949500137819,
+        0.6300949500137819
+      ],
+      "risk_reduction_vs_own_independent_percent": 0.0,
+      "risk_reduction_vs_own_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "risk_reduction_vs_full_independent_percent": 31.638799715484232,
+      "risk_reduction_vs_full_independent_ci95": [
+        25.32590908368896,
+        37.6025886793702
+      ],
+      "paired_rmse_improvement": 1.771188482009578e-05,
+      "paired_rmse_improvement_ci95": [
+        -2.6478774720848156e-05,
+        6.30522197595351e-05
+      ],
+      "paired_mlpd_improvement": 6.372134121890305e-05,
+      "paired_mlpd_improvement_ci95": [
+        -0.0001124017040754044,
+        0.0002460798604455763
+      ],
+      "active_bound_count": 0,
+      "above_gradient_tolerance_count": 0,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "separable",
+      "geometry": "separated",
+      "method": "correlation_only_joint",
+      "datasets": 300,
+      "risk": 0.016059896458584997,
+      "risk_ci95": [
+        0.016058861409632093,
+        0.016060954225934197
+      ],
+      "latent_mse": 0.01541060103869473,
+      "latent_mse_ci95": [
+        0.014901225864004266,
+        0.015952383973039556
+      ],
+      "rmse": 0.12271410690367351,
+      "rmse_ci95": [
+        0.12072293929923247,
+        0.12479613853280093
+      ],
+      "observed_mse": 0.025553292077348303,
+      "observed_mse_ci95": [
+        0.024962520914966473,
+        0.02615565644209027
+      ],
+      "mlpd": 0.4229159509114263,
+      "mlpd_ci95": [
+        0.41134583182327134,
+        0.4340270535792546
+      ],
+      "coverage95": 0.9529166666666669,
+      "coverage95_ci95": [
+        0.9500555555555559,
+        0.9557506944444443
+      ],
+      "width95": 0.6300387077843439,
+      "width95_ci95": [
+        0.6300372261304518,
+        0.6300404562630804
+      ],
+      "risk_reduction_vs_own_independent_percent": -0.010156257579629901,
+      "risk_reduction_vs_own_independent_ci95": [
+        -0.015583908955308368,
+        -0.0049158430709006495
+      ],
+      "risk_reduction_vs_full_independent_percent": 31.631856775898804,
+      "risk_reduction_vs_full_independent_ci95": [
+        25.320367517921575,
+        37.59696688467933
+      ],
+      "paired_rmse_improvement": 1.771188482009578e-05,
+      "paired_rmse_improvement_ci95": [
+        -2.6478774720848156e-05,
+        6.30522197595351e-05
+      ],
+      "paired_mlpd_improvement": 6.372134121890305e-05,
+      "paired_mlpd_improvement_ci95": [
+        -0.0001124017040754044,
+        0.0002460798604455763
+      ],
+      "active_bound_count": 264,
+      "above_gradient_tolerance_count": 0,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "separable",
+      "geometry": "separated",
+      "method": "full_independent",
+      "datasets": 300,
+      "risk": 0.023490321224525445,
+      "risk_ci95": [
+        0.021504552942199263,
+        0.025735515609399497
+      ],
+      "latent_mse": 0.022435630042786484,
+      "latent_mse_ci95": [
+        0.020350110734027697,
+        0.02475214823493002
+      ],
+      "rmse": 0.14212977870139876,
+      "rmse_ci95": [
+        0.13712122821578948,
+        0.1474998750959499
+      ],
+      "observed_mse": 0.03256133496209796,
+      "observed_mse_ci95": [
+        0.03053246057871799,
+        0.034867673366195485
+      ],
+      "mlpd": -47.93905435186477,
+      "mlpd_ci95": [
+        -57.338931752539025,
+        -39.02237480872504
+      ],
+      "coverage95": 0.8116111111111102,
+      "coverage95_ci95": [
+        0.7920215277777778,
+        0.8311708333333333
+      ],
+      "width95": 0.6640918132437222,
+      "width95_ci95": [
+        0.6196704038776666,
+        0.7113490374831399
+      ],
+      "risk_reduction_vs_own_independent_percent": 0.0,
+      "risk_reduction_vs_own_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "risk_reduction_vs_full_independent_percent": 0.0,
+      "risk_reduction_vs_full_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_rmse_improvement": 0.001183035400524196,
+      "paired_rmse_improvement_ci95": [
+        -0.002840290335698816,
+        0.0055029172966015285
+      ],
+      "paired_mlpd_improvement": 10.259939995009056,
+      "paired_mlpd_improvement_ci95": [
+        5.1870202027772985,
+        15.787230613291086
+      ],
+      "active_bound_count": 149,
+      "above_gradient_tolerance_count": 85,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "separable",
+      "geometry": "separated",
+      "method": "full_joint",
+      "datasets": 300,
+      "risk": 0.022648289264081103,
+      "risk_ci95": [
+        0.020974608420265484,
+        0.02457789938962969
+      ],
+      "latent_mse": 0.021574160778602122,
+      "latent_mse_ci95": [
+        0.01989013706431627,
+        0.02355955726274927
+      ],
+      "rmse": 0.14094674330087456,
+      "rmse_ci95": [
+        0.13654303717359995,
+        0.14577276912656237
+      ],
+      "observed_mse": 0.03162360871330347,
+      "observed_mse_ci95": [
+        0.029988245734499333,
+        0.033453483220306335
+      ],
+      "mlpd": -37.67911435685571,
+      "mlpd_ci95": [
+        -46.63195865600833,
+        -29.574655955537665
+      ],
+      "coverage95": 0.8307222222222218,
+      "coverage95_ci95": [
+        0.8101923611111114,
+        0.8510611111111112
+      ],
+      "width95": 0.7020135330015587,
+      "width95_ci95": [
+        0.6576650290480165,
+        0.7503301185850244
+      ],
+      "risk_reduction_vs_own_independent_percent": 3.5845910849665374,
+      "risk_reduction_vs_own_independent_ci95": [
+        -5.2847001634888775,
+        11.811874416387411
+      ],
+      "risk_reduction_vs_full_independent_percent": 3.5845910849665374,
+      "risk_reduction_vs_full_independent_ci95": [
+        -5.2847001634888775,
+        11.811874416387411
+      ],
+      "paired_rmse_improvement": 0.001183035400524196,
+      "paired_rmse_improvement_ci95": [
+        -0.002840290335698816,
+        0.0055029172966015285
+      ],
+      "paired_mlpd_improvement": 10.259939995009056,
+      "paired_mlpd_improvement_ci95": [
+        5.1870202027772985,
+        15.787230613291086
+      ],
+      "active_bound_count": 276,
+      "above_gradient_tolerance_count": 248,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "isotopic",
+      "method": "correlation_only_independent",
+      "datasets": 300,
+      "risk": 0.032600199150649344,
+      "risk_ci95": [
+        0.03248038210967315,
+        0.032727857383489344
+      ],
+      "latent_mse": 0.032033318727683495,
+      "latent_mse_ci95": [
+        0.030983924792381632,
+        0.033180514012668
+      ],
+      "rmse": 0.1769775972053744,
+      "rmse_ci95": [
+        0.17401863646303806,
+        0.18004482344507916
+      ],
+      "observed_mse": 0.042404215519404244,
+      "observed_mse_ci95": [
+        0.041285807722448185,
+        0.04357965471408028
+      ],
+      "mlpd": 0.12659318682705717,
+      "mlpd_ci95": [
+        0.10539375449622966,
+        0.14651085993933488
+      ],
+      "coverage95": 0.8815277777777781,
+      "coverage95_ci95": [
+        0.8759993055555556,
+        0.8865284722222221
+      ],
+      "width95": 0.630094950013784,
+      "width95_ci95": [
+        0.6300949500137819,
+        0.6300949500137819
+      ],
+      "risk_reduction_vs_own_independent_percent": 0.0,
+      "risk_reduction_vs_own_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "risk_reduction_vs_full_independent_percent": 46.906088175102646,
+      "risk_reduction_vs_full_independent_ci95": [
+        40.50858754375819,
+        52.60288820269078
+      ],
+      "paired_rmse_improvement": 0.002236060803734452,
+      "paired_rmse_improvement_ci95": [
+        0.001484275436044733,
+        0.0029652797833303844
+      ],
+      "paired_mlpd_improvement": -0.003807985093669336,
+      "paired_mlpd_improvement_ci95": [
+        -0.00996520956163522,
+        0.0021195680682347187
+      ],
+      "active_bound_count": 0,
+      "above_gradient_tolerance_count": 0,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "isotopic",
+      "method": "correlation_only_joint",
+      "datasets": 300,
+      "risk": 0.03176516991191329,
+      "risk_ci95": [
+        0.031676874765847296,
+        0.031862943792347304
+      ],
+      "latent_mse": 0.031223330236779596,
+      "latent_mse_ci95": [
+        0.030207927156225976,
+        0.03236733611920852
+      ],
+      "rmse": 0.17474153640163995,
+      "rmse_ci95": [
+        0.17185141361786604,
+        0.17793625458033213
+      ],
+      "observed_mse": 0.0416343341230101,
+      "observed_mse_ci95": [
+        0.040559527174731796,
+        0.04280410505831912
+      ],
+      "mlpd": 0.12278520173338783,
+      "mlpd_ci95": [
+        0.10054060106371279,
+        0.14329483192502354
+      ],
+      "coverage95": 0.8717777777777784,
+      "coverage95_ci95": [
+        0.8660826388888887,
+        0.8767499999999999
+      ],
+      "width95": 0.6076686952059841,
+      "width95_ci95": [
+        0.6069531251619367,
+        0.6083304848628878
+      ],
+      "risk_reduction_vs_own_independent_percent": 2.561423735104451,
+      "risk_reduction_vs_own_independent_ci95": [
+        2.218582795554967,
+        2.8771061935464335
+      ],
+      "risk_reduction_vs_full_independent_percent": 48.266048234481,
+      "risk_reduction_vs_full_independent_ci95": [
+        42.050489364119734,
+        53.78768743020899
+      ],
+      "paired_rmse_improvement": 0.002236060803734452,
+      "paired_rmse_improvement_ci95": [
+        0.001484275436044733,
+        0.0029652797833303844
+      ],
+      "paired_mlpd_improvement": -0.003807985093669336,
+      "paired_mlpd_improvement_ci95": [
+        -0.00996520956163522,
+        0.0021195680682347187
+      ],
+      "active_bound_count": 15,
+      "above_gradient_tolerance_count": 0,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "isotopic",
+      "method": "full_independent",
+      "datasets": 300,
+      "risk": 0.06140101196190656,
+      "risk_ci95": [
+        0.054755790022174004,
+        0.06882826983170069
+      ],
+      "latent_mse": 0.06035072992271672,
+      "latent_mse_ci95": [
+        0.05369964553812859,
+        0.06731101186816375
+      ],
+      "rmse": 0.2274799454552669,
+      "rmse_ci95": [
+        0.21754209657077844,
+        0.23795511915642295
+      ],
+      "observed_mse": 0.07071519675211675,
+      "observed_mse_ci95": [
+        0.06406408875137912,
+        0.07757517816429794
+      ],
+      "mlpd": -45.32509690455398,
+      "mlpd_ci95": [
+        -54.02742873540562,
+        -36.75625589085711
+      ],
+      "coverage95": 0.865194444444444,
+      "coverage95_ci95": [
+        0.8480506944444445,
+        0.8813333333333334
+      ],
+      "width95": 1.080228405370304,
+      "width95_ci95": [
+        1.011294667480369,
+        1.148187991856365
+      ],
+      "risk_reduction_vs_own_independent_percent": 0.0,
+      "risk_reduction_vs_own_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "risk_reduction_vs_full_independent_percent": 0.0,
+      "risk_reduction_vs_full_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_rmse_improvement": 0.04842251712064405,
+      "paired_rmse_improvement_ci95": [
+        0.03903756220571626,
+        0.05881364550992425
+      ],
+      "paired_mlpd_improvement": -5.538978580296174,
+      "paired_mlpd_improvement_ci95": [
+        -16.23769521469628,
+        4.30710249538995
+      ],
+      "active_bound_count": 144,
+      "above_gradient_tolerance_count": 119,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "isotopic",
+      "method": "full_joint",
+      "datasets": 300,
+      "risk": 0.03392773969683854,
+      "risk_ci95": [
+        0.032534474363905434,
+        0.035712254503468384
+      ],
+      "latent_mse": 0.03324018753979467,
+      "latent_mse_ci95": [
+        0.03164869353040592,
+        0.03528849528833372
+      ],
+      "rmse": 0.17905742833462285,
+      "rmse_ci95": [
+        0.17546928685136284,
+        0.18357061283876017
+      ],
+      "observed_mse": 0.04366652124595202,
+      "observed_mse_ci95": [
+        0.04202262491271396,
+        0.04571887971640942
+      ],
+      "mlpd": -50.864075484850154,
+      "mlpd_ci95": [
+        -60.91706574439604,
+        -41.51079143315097
+      ],
+      "coverage95": 0.8312777777777774,
+      "coverage95_ci95": [
+        0.8163055555555556,
+        0.8452263888888886
+      ],
+      "width95": 0.7022414086515925,
+      "width95_ci95": [
+        0.6742602773878555,
+        0.7293199020354928
+      ],
+      "risk_reduction_vs_own_independent_percent": 44.74400565598585,
+      "risk_reduction_vs_own_independent_ci95": [
+        38.58722063181564,
+        50.49038624458513
+      ],
+      "risk_reduction_vs_full_independent_percent": 44.74400565598585,
+      "risk_reduction_vs_full_independent_ci95": [
+        38.58722063181564,
+        50.49038624458513
+      ],
+      "paired_rmse_improvement": 0.04842251712064405,
+      "paired_rmse_improvement_ci95": [
+        0.03903756220571626,
+        0.05881364550992425
+      ],
+      "paired_mlpd_improvement": -5.538978580296174,
+      "paired_mlpd_improvement_ci95": [
+        -16.23769521469628,
+        4.30710249538995
+      ],
+      "active_bound_count": 287,
+      "above_gradient_tolerance_count": 231,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "interleaved",
+      "method": "correlation_only_independent",
+      "datasets": 300,
+      "risk": 0.0323883889722403,
+      "risk_ci95": [
+        0.03175838628355719,
+        0.03303529703920991
+      ],
+      "latent_mse": 0.03281081821954443,
+      "latent_mse_ci95": [
+        0.03177175939658036,
+        0.033919857958634246
+      ],
+      "rmse": 0.17916725232388303,
+      "rmse_ci95": [
+        0.1762722693801242,
+        0.18219931243714954
+      ],
+      "observed_mse": 0.042770693711089096,
+      "observed_mse_ci95": [
+        0.041689282298203435,
+        0.043934494062002165
+      ],
+      "mlpd": 0.11925838787010204,
+      "mlpd_ci95": [
+        0.09838754290071255,
+        0.1382302289876119
+      ],
+      "coverage95": 0.8806666666666676,
+      "coverage95_ci95": [
+        0.87519375,
+        0.8856666666666665
+      ],
+      "width95": 0.630094950013784,
+      "width95_ci95": [
+        0.6300949500137819,
+        0.6300949500137819
+      ],
+      "risk_reduction_vs_own_independent_percent": 0.0,
+      "risk_reduction_vs_own_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "risk_reduction_vs_full_independent_percent": 41.67367581808183,
+      "risk_reduction_vs_full_independent_ci95": [
+        36.68563433445192,
+        46.334467758944974
+      ],
+      "paired_rmse_improvement": 0.021970760515888893,
+      "paired_rmse_improvement_ci95": [
+        0.020443851208747373,
+        0.023612371369345908
+      ],
+      "paired_mlpd_improvement": 0.09746824474255905,
+      "paired_mlpd_improvement_ci95": [
+        0.08770060233180198,
+        0.10804073527200232
+      ],
+      "active_bound_count": 0,
+      "above_gradient_tolerance_count": 0,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "interleaved",
+      "method": "correlation_only_joint",
+      "datasets": 300,
+      "risk": 0.024738656213128322,
+      "risk_ci95": [
+        0.024486652088997807,
+        0.025012109198862986
+      ],
+      "latent_mse": 0.025208283577485384,
+      "latent_mse_ci95": [
+        0.024433127443188173,
+        0.026012495405407576
+      ],
+      "rmse": 0.15719649180799414,
+      "rmse_ci95": [
+        0.15474538779134947,
+        0.1596476643142218
+      ],
+      "observed_mse": 0.03520741610125663,
+      "observed_mse_ci95": [
+        0.03437201352808559,
+        0.03605878710247928
+      ],
+      "mlpd": 0.2167266326126611,
+      "mlpd_ci95": [
+        0.19840489788841129,
+        0.23438180520639
+      ],
+      "coverage95": 0.8839166666666669,
+      "coverage95_ci95": [
+        0.8790548611111109,
+        0.8885277777777778
+      ],
+      "width95": 0.5813511582999095,
+      "width95_ci95": [
+        0.580132733073557,
+        0.5825460147970388
+      ],
+      "risk_reduction_vs_own_independent_percent": 23.61875042833551,
+      "risk_reduction_vs_own_independent_ci95": [
+        22.544333133619098,
+        24.66274724264917
+      ],
+      "risk_reduction_vs_full_independent_percent": 55.44962476063099,
+      "risk_reduction_vs_full_independent_ci95": [
+        51.66708511580587,
+        58.964912442978175
+      ],
+      "paired_rmse_improvement": 0.021970760515888893,
+      "paired_rmse_improvement_ci95": [
+        0.020443851208747373,
+        0.023612371369345908
+      ],
+      "paired_mlpd_improvement": 0.09746824474255905,
+      "paired_mlpd_improvement_ci95": [
+        0.08770060233180198,
+        0.10804073527200232
+      ],
+      "active_bound_count": 17,
+      "above_gradient_tolerance_count": 0,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "interleaved",
+      "method": "full_independent",
+      "datasets": 300,
+      "risk": 0.055529624790380795,
+      "risk_ci95": [
+        0.05114881383335149,
+        0.06035775619207407
+      ],
+      "latent_mse": 0.055364655878446266,
+      "latent_mse_ci95": [
+        0.05082695375596484,
+        0.0602224452238357
+      ],
+      "rmse": 0.22352271446550256,
+      "rmse_ci95": [
+        0.2152276182771654,
+        0.23191674012533167
+      ],
+      "observed_mse": 0.06512104722508943,
+      "observed_mse_ci95": [
+        0.06067679720253569,
+        0.06993585169829442
+      ],
+      "mlpd": -37.5732144017288,
+      "mlpd_ci95": [
+        -44.547728453762254,
+        -30.86769352155903
+      ],
+      "coverage95": 0.8650555555555559,
+      "coverage95_ci95": [
+        0.8465270833333334,
+        0.8819194444444443
+      ],
+      "width95": 1.0644856543904513,
+      "width95_ci95": [
+        0.9980934573081285,
+        1.130024002963784
+      ],
+      "risk_reduction_vs_own_independent_percent": 0.0,
+      "risk_reduction_vs_own_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "risk_reduction_vs_full_independent_percent": 0.0,
+      "risk_reduction_vs_full_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_rmse_improvement": 0.0683115128428248,
+      "paired_rmse_improvement_ci95": [
+        0.06058760644559615,
+        0.07639999422240461
+      ],
+      "paired_mlpd_improvement": -13.90793205683859,
+      "paired_mlpd_improvement_ci95": [
+        -23.464403523232445,
+        -4.015507810216243
+      ],
+      "active_bound_count": 132,
+      "above_gradient_tolerance_count": 104,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "interleaved",
+      "method": "full_joint",
+      "datasets": 300,
+      "risk": 0.02428970875423484,
+      "risk_ci95": [
+        0.023251655973556502,
+        0.02575351844228788
+      ],
+      "latent_mse": 0.02504758941135202,
+      "latent_mse_ci95": [
+        0.02368193410557045,
+        0.026663078421761983
+      ],
+      "rmse": 0.15521120162267776,
+      "rmse_ci95": [
+        0.15190255098934777,
+        0.15883668134616202
+      ],
+      "observed_mse": 0.03497487609398905,
+      "observed_mse_ci95": [
+        0.03360057314477063,
+        0.036675462657080174
+      ],
+      "mlpd": -51.48114645856739,
+      "mlpd_ci95": [
+        -60.97474149638908,
+        -42.57295760810734
+      ],
+      "coverage95": 0.7795833333333332,
+      "coverage95_ci95": [
+        0.7616375000000001,
+        0.7961409722222222
+      ],
+      "width95": 0.5434290773925742,
+      "width95_ci95": [
+        0.5217026006896566,
+        0.5670803258896757
+      ],
+      "risk_reduction_vs_own_independent_percent": 56.258107549031266,
+      "risk_reduction_vs_own_independent_ci95": [
+        52.226098869013846,
+        59.8926632678941
+      ],
+      "risk_reduction_vs_full_independent_percent": 56.258107549031266,
+      "risk_reduction_vs_full_independent_ci95": [
+        52.226098869013846,
+        59.8926632678941
+      ],
+      "paired_rmse_improvement": 0.0683115128428248,
+      "paired_rmse_improvement_ci95": [
+        0.06058760644559615,
+        0.07639999422240461
+      ],
+      "paired_mlpd_improvement": -13.90793205683859,
+      "paired_mlpd_improvement_ci95": [
+        -23.464403523232445,
+        -4.015507810216243
+      ],
+      "active_bound_count": 299,
+      "above_gradient_tolerance_count": 239,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "separated",
+      "method": "correlation_only_independent",
+      "datasets": 300,
+      "risk": 0.03259793237413461,
+      "risk_ci95": [
+        0.0325814646569168,
+        0.03261629536840129
+      ],
+      "latent_mse": 0.0321794619594789,
+      "latent_mse_ci95": [
+        0.031147391963759177,
+        0.03329014072205696
+      ],
+      "rmse": 0.177453800514491,
+      "rmse_ci95": [
+        0.17460948602650664,
+        0.18047078781333892
+      ],
+      "observed_mse": 0.04183341426201702,
+      "observed_mse_ci95": [
+        0.0407210040499141,
+        0.042979883698119864
+      ],
+      "mlpd": 0.1377088991750317,
+      "mlpd_ci95": [
+        0.117399565147933,
+        0.15770184436410176
+      ],
+      "coverage95": 0.8846388888888886,
+      "coverage95_ci95": [
+        0.8797222222222224,
+        0.889695138888889
+      ],
+      "width95": 0.630094950013784,
+      "width95_ci95": [
+        0.6300949500137819,
+        0.6300949500137819
+      ],
+      "risk_reduction_vs_own_independent_percent": 0.0,
+      "risk_reduction_vs_own_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "risk_reduction_vs_full_independent_percent": 40.588200748001746,
+      "risk_reduction_vs_full_independent_ci95": [
+        34.83562944671972,
+        46.10942877470611
+      ],
+      "paired_rmse_improvement": 1.1698809413235312e-05,
+      "paired_rmse_improvement_ci95": [
+        -2.0047414808827684e-05,
+        4.3376950013507965e-05
+      ],
+      "paired_mlpd_improvement": 8.186158487188955e-06,
+      "paired_mlpd_improvement_ci95": [
+        -0.00017912055994384057,
+        0.00019256695964134542
+      ],
+      "active_bound_count": 0,
+      "above_gradient_tolerance_count": 0,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "separated",
+      "method": "correlation_only_joint",
+      "datasets": 300,
+      "risk": 0.03260129481610723,
+      "risk_ci95": [
+        0.032584845102278076,
+        0.032619616822065885
+      ],
+      "latent_mse": 0.03217503548459855,
+      "latent_mse_ci95": [
+        0.03114300714321604,
+        0.03328555631897957
+      ],
+      "rmse": 0.17744210170507776,
+      "rmse_ci95": [
+        0.17459108848394522,
+        0.18046429555552618
+      ],
+      "observed_mse": 0.04182972792187457,
+      "observed_mse_ci95": [
+        0.0407164727713035,
+        0.04297614798059521
+      ],
+      "mlpd": 0.1377170853335189,
+      "mlpd_ci95": [
+        0.1173854522361784,
+        0.15775816455087183
+      ],
+      "coverage95": 0.8846944444444443,
+      "coverage95_ci95": [
+        0.8798048611111111,
+        0.8897222222222223
+      ],
+      "width95": 0.6300389558784709,
+      "width95_ci95": [
+        0.6300372842232226,
+        0.6300407343896061
+      ],
+      "risk_reduction_vs_own_independent_percent": -0.010314893392715518,
+      "risk_reduction_vs_own_independent_ci95": [
+        -0.013428426012210282,
+        -0.0075132533972127645
+      ],
+      "risk_reduction_vs_full_independent_percent": 40.582072484246204,
+      "risk_reduction_vs_full_independent_ci95": [
+        34.828980877855116,
+        46.102841058529606
+      ],
+      "paired_rmse_improvement": 1.1698809413235312e-05,
+      "paired_rmse_improvement_ci95": [
+        -2.0047414808827684e-05,
+        4.3376950013507965e-05
+      ],
+      "paired_mlpd_improvement": 8.186158487188955e-06,
+      "paired_mlpd_improvement_ci95": [
+        -0.00017912055994384057,
+        0.00019256695964134542
+      ],
+      "active_bound_count": 263,
+      "above_gradient_tolerance_count": 0,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "separated",
+      "method": "full_independent",
+      "datasets": 300,
+      "risk": 0.05486777506243965,
+      "risk_ci95": [
+        0.05001935795906024,
+        0.060511015098730636
+      ],
+      "latent_mse": 0.05455678956712524,
+      "latent_mse_ci95": [
+        0.04946334433094473,
+        0.06043080231857163
+      ],
+      "rmse": 0.21899534749850788,
+      "rmse_ci95": [
+        0.2102117308396278,
+        0.22830218683654424
+      ],
+      "observed_mse": 0.06441565208254005,
+      "observed_mse_ci95": [
+        0.05919909256871019,
+        0.07038411641611844
+      ],
+      "mlpd": -44.623406247813996,
+      "mlpd_ci95": [
+        -53.11284378957115,
+        -36.64486408274867
+      ],
+      "coverage95": 0.85225,
+      "coverage95_ci95": [
+        0.8344701388888891,
+        0.8704194444444444
+      ],
+      "width95": 1.0169279857366909,
+      "width95_ci95": [
+        0.9504074567961451,
+        1.0848731523013007
+      ],
+      "risk_reduction_vs_own_independent_percent": 0.0,
+      "risk_reduction_vs_own_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "risk_reduction_vs_full_independent_percent": 0.0,
+      "risk_reduction_vs_full_independent_ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_rmse_improvement": -0.010716215373739263,
+      "paired_rmse_improvement_ci95": [
+        -0.018327059832276827,
+        -0.0028434261132140766
+      ],
+      "paired_mlpd_improvement": 14.493464927521376,
+      "paired_mlpd_improvement_ci95": [
+        8.356920965228314,
+        21.040235859738747
+      ],
+      "active_bound_count": 144,
+      "above_gradient_tolerance_count": 108,
+      "failed_fit_count": 0
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "separated",
+      "method": "full_joint",
+      "datasets": 300,
+      "risk": 0.060528716490072416,
+      "risk_ci95": [
+        0.05538441624035123,
+        0.06647963437021184
+      ],
+      "latent_mse": 0.05998542811107535,
+      "latent_mse_ci95": [
+        0.05432584432491827,
+        0.06624213312929775
+      ],
+      "rmse": 0.22971156287224714,
+      "rmse_ci95": [
+        0.2205329289531258,
+        0.23964338806004404
+      ],
+      "observed_mse": 0.06980413209583816,
+      "observed_mse_ci95": [
+        0.06410104570345344,
+        0.07618037301471856
+      ],
+      "mlpd": -30.12994132029262,
+      "mlpd_ci95": [
+        -37.38948168461761,
+        -23.614425196267206
+      ],
+      "coverage95": 0.8736388888888889,
+      "coverage95_ci95": [
+        0.8554152777777778,
+        0.8919756944444446
+      ],
+      "width95": 1.1331522056931096,
+      "width95_ci95": [
+        1.0649289776523991,
+        1.2096633491371167
+      ],
+      "risk_reduction_vs_own_independent_percent": -10.317424792951059,
+      "risk_reduction_vs_own_independent_ci95": [
+        -19.627358590893085,
+        -1.619482721740968
+      ],
+      "risk_reduction_vs_full_independent_percent": -10.317424792951059,
+      "risk_reduction_vs_full_independent_ci95": [
+        -19.627358590893085,
+        -1.619482721740968
+      ],
+      "paired_rmse_improvement": -0.010716215373739263,
+      "paired_rmse_improvement_ci95": [
+        -0.018327059832276827,
+        -0.0028434261132140766
+      ],
+      "paired_mlpd_improvement": 14.493464927521376,
+      "paired_mlpd_improvement_ci95": [
+        8.356920965228314,
+        21.040235859738747
+      ],
+      "active_bound_count": 289,
+      "above_gradient_tolerance_count": 269,
+      "failed_fit_count": 0
+    }
+  ],
+  "original80_intervals": [
+    {
+      "family": "separable",
+      "geometry": "isotopic",
+      "datasets": 80,
+      "rmse_diff": 0.001418408076510495,
+      "rmse_diff_ci95": [
+        0.0007169304701831805,
+        0.002106884065692802
+      ],
+      "mlpd_diff": 0.006013351976736264,
+      "mlpd_diff_ci95": [
+        0.0014952451657896937,
+        0.010310813293725785
+      ]
+    },
+    {
+      "family": "separable",
+      "geometry": "interleaved",
+      "datasets": 80,
+      "rmse_diff": 0.0031619433788086194,
+      "rmse_diff_ci95": [
+        0.0016255806682122685,
+        0.004835692901599455
+      ],
+      "mlpd_diff": 0.01740409510021605,
+      "mlpd_diff_ci95": [
+        0.010012651075060419,
+        0.025230749116212547
+      ]
+    },
+    {
+      "family": "separable",
+      "geometry": "separated",
+      "datasets": 80,
+      "rmse_diff": 3.312830520832846e-05,
+      "rmse_diff_ci95": [
+        -7.705107324160587e-05,
+        0.00015383915357716047
+      ],
+      "mlpd_diff": 0.00018957902492745642,
+      "mlpd_diff_ci95": [
+        -0.0002856190998625276,
+        0.0006673133402513728
+      ]
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "isotopic",
+      "datasets": 80,
+      "rmse_diff": 0.0030302193221497845,
+      "rmse_diff_ci95": [
+        0.0014799502439694573,
+        0.004643507653377807
+      ],
+      "mlpd_diff": 0.003707362403268753,
+      "mlpd_diff_ci95": [
+        -0.0069771395135892955,
+        0.014595127706724144
+      ]
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "interleaved",
+      "datasets": 80,
+      "rmse_diff": 0.023709855719857183,
+      "rmse_diff_ci95": [
+        0.02024458879815889,
+        0.02722827905899895
+      ],
+      "mlpd_diff": 0.11160494015376148,
+      "mlpd_diff_ci95": [
+        0.08725138736100946,
+        0.13655425717708414
+      ]
+    },
+    {
+      "family": "original_lmc",
+      "geometry": "separated",
+      "datasets": 80,
+      "rmse_diff": -3.5738750976120776e-05,
+      "rmse_diff_ci95": [
+        -0.00010241475214016444,
+        2.974509611852525e-05
+      ],
+      "mlpd_diff": -0.00030957761396958417,
+      "mlpd_diff_ci95": [
+        -0.0007049479814120774,
+        7.423937885643532e-05
+      ]
+    }
+  ],
+  "scope": "2000 dataset-paired resamples separately within each fixed family/geometry; matched modes share weights. Conditional-risk ratio is ratio of means, RMSE difference is mean of per-dataset RMSE differences to match original convention. Original80-dataset intervals use preserved CSV records, separate from fresh300; no CI on deterministic oracle quantities."
+}

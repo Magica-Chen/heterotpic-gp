@@ -1,0 +1,167 @@
+{
+  "experiment_id": "E8_opportunity_v2",
+  "cases": [
+    {
+      "id": "B01",
+      "family": "lmc_positive",
+      "n1": 8,
+      "n2": 8,
+      "geometry": "interleaved"
+    },
+    {
+      "id": "B02",
+      "family": "lmc_positive",
+      "n1": 8,
+      "n2": 8,
+      "geometry": "separated"
+    },
+    {
+      "id": "B03",
+      "family": "lmc_positive",
+      "n1": 8,
+      "n2": 32,
+      "geometry": "interleaved"
+    },
+    {
+      "id": "B04",
+      "family": "lmc_positive",
+      "n1": 8,
+      "n2": 32,
+      "geometry": "separated"
+    },
+    {
+      "id": "B05",
+      "family": "lmc_positive",
+      "n1": 16,
+      "n2": 16,
+      "geometry": "interleaved"
+    },
+    {
+      "id": "B06",
+      "family": "lmc_positive",
+      "n1": 16,
+      "n2": 16,
+      "geometry": "separated"
+    },
+    {
+      "id": "B07",
+      "family": "lmc_positive",
+      "n1": 16,
+      "n2": 64,
+      "geometry": "interleaved"
+    },
+    {
+      "id": "B08",
+      "family": "lmc_positive",
+      "n1": 16,
+      "n2": 64,
+      "geometry": "separated"
+    },
+    {
+      "id": "B09",
+      "family": "ar_fidelity",
+      "n1": 8,
+      "n2": 8,
+      "geometry": "interleaved"
+    },
+    {
+      "id": "B10",
+      "family": "ar_fidelity",
+      "n1": 8,
+      "n2": 8,
+      "geometry": "separated"
+    },
+    {
+      "id": "B11",
+      "family": "ar_fidelity",
+      "n1": 8,
+      "n2": 32,
+      "geometry": "interleaved"
+    },
+    {
+      "id": "B12",
+      "family": "ar_fidelity",
+      "n1": 8,
+      "n2": 32,
+      "geometry": "separated"
+    },
+    {
+      "id": "B13",
+      "family": "ar_fidelity",
+      "n1": 16,
+      "n2": 16,
+      "geometry": "interleaved"
+    },
+    {
+      "id": "B14",
+      "family": "ar_fidelity",
+      "n1": 16,
+      "n2": 16,
+      "geometry": "separated"
+    },
+    {
+      "id": "B15",
+      "family": "ar_fidelity",
+      "n1": 16,
+      "n2": 64,
+      "geometry": "interleaved"
+    },
+    {
+      "id": "B16",
+      "family": "ar_fidelity",
+      "n1": 16,
+      "n2": 64,
+      "geometry": "separated"
+    }
+  ],
+  "replicates": 500,
+  "fit_config": {
+    "kernel": "matern32",
+    "ard": false,
+    "maxiter": 1000,
+    "ftol": 1e-08,
+    "gtol": 1e-05,
+    "lengthscale_bounds": [
+      0.01,
+      3.0
+    ],
+    "signal_variance_bounds": [
+      0.0025,
+      25.0
+    ],
+    "noise_variance_bounds": [
+      1e-06,
+      2.0
+    ],
+    "partial_correlation_limit": 0.995,
+    "jitter_scale": 1.0,
+    "jitter_ladder": [
+      1e-10,
+      1e-09,
+      1e-08,
+      1e-07,
+      1e-06,
+      1e-05
+    ],
+    "starts": 4
+  },
+  "q2_noise_bounds": [
+    1e-08,
+    2.0
+  ],
+  "model_order": [
+    "independent",
+    "mixture_independent",
+    "separable",
+    "rich_joint"
+  ],
+  "matching_baselines": {
+    "independent": "independent",
+    "mixture_independent": "mixture_independent",
+    "separable": "independent",
+    "rich_joint": "mixture_independent"
+  },
+  "q2_primary_mean": "linear",
+  "validation_materiality": 0.02,
+  "uncertainty_replicates": 2000
+}

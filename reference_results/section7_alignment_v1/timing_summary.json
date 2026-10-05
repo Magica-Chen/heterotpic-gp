@@ -1,0 +1,98 @@
+{
+  "balanced_primary": {
+    "pairs": 96,
+    "screen_seconds": 0.17836636619237348,
+    "direct_seconds": 0.20261816373931651,
+    "saving_percent": {
+      "estimate": 11.969211989377616,
+      "ci95": [
+        10.085567506805045,
+        13.790219576314112
+      ]
+    }
+  },
+  "robustness_primary": {
+    "pairs": 72,
+    "screen_seconds": 0.16404451222317423,
+    "direct_seconds": 0.20610955721268612,
+    "saving_percent": {
+      "estimate": 20.40907057313438,
+      "ci95": [
+        17.741075703715588,
+        23.124736017699583
+      ]
+    }
+  },
+  "scales_ard": {
+    "pairs": 72,
+    "screen_seconds": 0.9439198588354176,
+    "direct_seconds": 1.094449743862141,
+    "saving_percent": {
+      "estimate": 13.753933049088863,
+      "ci95": [
+        10.699252967037376,
+        16.715205060757462
+      ]
+    }
+  },
+  "scales_isotropic": {
+    "pairs": 72,
+    "screen_seconds": 0.6724363748928428,
+    "direct_seconds": 0.7689176312819149,
+    "saving_percent": {
+      "estimate": 12.54767122822007,
+      "ci95": [
+        11.14628271515717,
+        13.989647601660012
+      ]
+    }
+  },
+  "q1_centred": {
+    "pairs": 6,
+    "screen_seconds": 0.2411436389957089,
+    "direct_seconds": 0.2566843594928893,
+    "saving_percent": {
+      "estimate": 6.054408818629609,
+      "ci95": [
+        5.111439271226459,
+        7.039947090360776
+      ]
+    }
+  },
+  "q1_linear": {
+    "pairs": 6,
+    "screen_seconds": 0.22624094017858928,
+    "direct_seconds": 0.3167843826522585,
+    "saving_percent": {
+      "estimate": 28.582041108087342,
+      "ci95": [
+        27.752792101823264,
+        29.36359828524181
+      ]
+    }
+  },
+  "q2_centred": {
+    "pairs": 18,
+    "screen_seconds": 0.42110704073113286,
+    "direct_seconds": 0.46618570117021185,
+    "saving_percent": {
+      "estimate": 9.669678912485569,
+      "ci95": [
+        8.5433058613668,
+        10.839352682849546
+      ]
+    }
+  },
+  "q2_linear": {
+    "pairs": 18,
+    "screen_seconds": 0.544566034947315,
+    "direct_seconds": 0.7069014401576068,
+    "saving_percent": {
+      "estimate": 22.964361930582346,
+      "ci95": [
+        17.096169647082917,
+        28.487711151279015
+      ]
+    }
+  }
+}

@@ -1,0 +1,828 @@
+{
+  "scenarios": [
+    {
+      "id": "T01",
+      "geometry": "colocated",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.0,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T02",
+      "geometry": "colocated",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.0,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T03",
+      "geometry": "colocated",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.4,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T04",
+      "geometry": "colocated",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.4,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T05",
+      "geometry": "colocated",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.8,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T06",
+      "geometry": "colocated",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.8,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T07",
+      "geometry": "colocated",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.0,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T08",
+      "geometry": "colocated",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.0,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T09",
+      "geometry": "colocated",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.4,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T10",
+      "geometry": "colocated",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.4,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T11",
+      "geometry": "colocated",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.8,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T12",
+      "geometry": "colocated",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.8,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T13",
+      "geometry": "infill",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.0,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T14",
+      "geometry": "infill",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.0,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T15",
+      "geometry": "infill",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.4,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T16",
+      "geometry": "infill",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.4,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T17",
+      "geometry": "infill",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.8,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T18",
+      "geometry": "infill",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.8,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T19",
+      "geometry": "infill",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.0,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T20",
+      "geometry": "infill",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.0,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T21",
+      "geometry": "infill",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.4,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T22",
+      "geometry": "infill",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.4,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T23",
+      "geometry": "infill",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.8,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T24",
+      "geometry": "infill",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.8,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T25",
+      "geometry": "partial",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.0,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T26",
+      "geometry": "partial",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.0,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T27",
+      "geometry": "partial",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.4,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T28",
+      "geometry": "partial",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.4,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T29",
+      "geometry": "partial",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.8,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T30",
+      "geometry": "partial",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.8,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T31",
+      "geometry": "partial",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.0,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T32",
+      "geometry": "partial",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.0,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T33",
+      "geometry": "partial",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.4,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T34",
+      "geometry": "partial",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.4,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T35",
+      "geometry": "partial",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.8,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T36",
+      "geometry": "partial",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.8,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T37",
+      "geometry": "remote",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.0,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T38",
+      "geometry": "remote",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.0,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T39",
+      "geometry": "remote",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.4,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T40",
+      "geometry": "remote",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.4,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T41",
+      "geometry": "remote",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.8,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T42",
+      "geometry": "remote",
+      "n1": 12,
+      "n2": 48,
+      "rho": 0.8,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T43",
+      "geometry": "remote",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.0,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T44",
+      "geometry": "remote",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.0,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T45",
+      "geometry": "remote",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.4,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T46",
+      "geometry": "remote",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.4,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T47",
+      "geometry": "remote",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.8,
+      "noise_variance": [
+        0.01,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    },
+    {
+      "id": "T48",
+      "geometry": "remote",
+      "n1": 24,
+      "n2": 96,
+      "rho": 0.8,
+      "noise_variance": [
+        0.1,
+        0.01
+      ],
+      "signal_variance": [
+        1.0,
+        1.0
+      ],
+      "lengthscale": 0.15,
+      "kernel": "matern32"
+    }
+  ],
+  "replicates": 200,
+  "timing_replications": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}

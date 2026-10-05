@@ -1,0 +1,115 @@
+{
+  "experiment_id": "Q2_calibrated_v3",
+  "cases": [
+    {
+      "id": "Q01",
+      "n1": 8,
+      "n2": 60,
+      "geometry": "distributed"
+    },
+    {
+      "id": "Q02",
+      "n1": 8,
+      "n2": 60,
+      "geometry": "lower_half"
+    },
+    {
+      "id": "Q03",
+      "n1": 8,
+      "n2": 60,
+      "geometry": "outside"
+    },
+    {
+      "id": "Q04",
+      "n1": 12,
+      "n2": 60,
+      "geometry": "distributed"
+    },
+    {
+      "id": "Q05",
+      "n1": 12,
+      "n2": 60,
+      "geometry": "lower_half"
+    },
+    {
+      "id": "Q06",
+      "n1": 12,
+      "n2": 60,
+      "geometry": "outside"
+    },
+    {
+      "id": "Q07",
+      "n1": 20,
+      "n2": 60,
+      "geometry": "distributed"
+    },
+    {
+      "id": "Q08",
+      "n1": 20,
+      "n2": 60,
+      "geometry": "lower_half"
+    },
+    {
+      "id": "Q09",
+      "n1": 20,
+      "n2": 60,
+      "geometry": "outside"
+    }
+  ],
+  "replicates": {
+    "calibration": 100,
+    "evaluation": 200
+  },
+  "thresholds": [
+    0.0,
+    0.0025,
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "fit_config": {
+    "kernel": "matern32",
+    "ard": false,
+    "maxiter": 1000,
+    "ftol": 1e-08,
+    "gtol": 1e-05,
+    "lengthscale_bounds": [
+      0.01,
+      3.0
+    ],
+    "signal_variance_bounds": [
+      0.0025,
+      25.0
+    ],
+    "noise_variance_bounds": [
+      1e-08,
+      2.0
+    ],
+    "partial_correlation_limit": 0.995,
+    "jitter_scale": 1.0,
+    "jitter_ladder": [
+      1e-10,
+      1e-09,
+      1e-08,
+      1e-07,
+      1e-06,
+      1e-05
+    ],
+    "starts": 4
+  },
+  "screen_config": {
+    "scale_multipliers": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "rho_max": 0.995,
+    "threshold": 0.2,
+    "material_fraction": 0.02,
+    "folds": 4,
+    "retain_boundary": false
+  }
+}

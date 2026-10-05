@@ -1,0 +1,2242 @@
+{
+  "experiment_id": "section7_alignment_v1",
+  "screen_config": {
+    "scale_multipliers": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "rho_max": 0.995,
+    "threshold": 0.2,
+    "material_fraction": 0.02,
+    "folds": 4,
+    "retain_boundary": false
+  },
+  "scenarios": {
+    "balanced": [
+      {
+        "id": "T01",
+        "geometry": "colocated",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.0,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T02",
+        "geometry": "colocated",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.0,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T03",
+        "geometry": "colocated",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.4,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T04",
+        "geometry": "colocated",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.4,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T05",
+        "geometry": "colocated",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.8,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T06",
+        "geometry": "colocated",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.8,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T07",
+        "geometry": "colocated",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.0,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T08",
+        "geometry": "colocated",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.0,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T09",
+        "geometry": "colocated",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.4,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T10",
+        "geometry": "colocated",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.4,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T11",
+        "geometry": "colocated",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.8,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T12",
+        "geometry": "colocated",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.8,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T13",
+        "geometry": "infill",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.0,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T14",
+        "geometry": "infill",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.0,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T15",
+        "geometry": "infill",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.4,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T16",
+        "geometry": "infill",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.4,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T17",
+        "geometry": "infill",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.8,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T18",
+        "geometry": "infill",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.8,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T19",
+        "geometry": "infill",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.0,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T20",
+        "geometry": "infill",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.0,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T21",
+        "geometry": "infill",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.4,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T22",
+        "geometry": "infill",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.4,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T23",
+        "geometry": "infill",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.8,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T24",
+        "geometry": "infill",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.8,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T25",
+        "geometry": "partial",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.0,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T26",
+        "geometry": "partial",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.0,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T27",
+        "geometry": "partial",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.4,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T28",
+        "geometry": "partial",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.4,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T29",
+        "geometry": "partial",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.8,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T30",
+        "geometry": "partial",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.8,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T31",
+        "geometry": "partial",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.0,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T32",
+        "geometry": "partial",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.0,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T33",
+        "geometry": "partial",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.4,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T34",
+        "geometry": "partial",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.4,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T35",
+        "geometry": "partial",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.8,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T36",
+        "geometry": "partial",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.8,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T37",
+        "geometry": "remote",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.0,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T38",
+        "geometry": "remote",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.0,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T39",
+        "geometry": "remote",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.4,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T40",
+        "geometry": "remote",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.4,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T41",
+        "geometry": "remote",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.8,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T42",
+        "geometry": "remote",
+        "n1": 12,
+        "n2": 12,
+        "rho": 0.8,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T43",
+        "geometry": "remote",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.0,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T44",
+        "geometry": "remote",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.0,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T45",
+        "geometry": "remote",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.4,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T46",
+        "geometry": "remote",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.4,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T47",
+        "geometry": "remote",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.8,
+        "noise_variance": [
+          0.01,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      },
+      {
+        "id": "T48",
+        "geometry": "remote",
+        "n1": 24,
+        "n2": 24,
+        "rho": 0.8,
+        "noise_variance": [
+          0.1,
+          0.01
+        ],
+        "signal_variance": [
+          1.0,
+          1.0
+        ],
+        "lengthscale": 0.15,
+        "kernel": "matern32"
+      }
+    ],
+    "robustness": [
+      {
+        "id": "B01",
+        "family": "lmc_positive",
+        "geometry": "isotopic",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B02",
+        "family": "lmc_positive",
+        "geometry": "isotopic",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B03",
+        "family": "lmc_positive",
+        "geometry": "interleaved",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B04",
+        "family": "lmc_positive",
+        "geometry": "interleaved",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B05",
+        "family": "lmc_positive",
+        "geometry": "separated",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B06",
+        "family": "lmc_positive",
+        "geometry": "separated",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B07",
+        "family": "lmc_cancelling",
+        "geometry": "isotopic",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B08",
+        "family": "lmc_cancelling",
+        "geometry": "isotopic",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B09",
+        "family": "lmc_cancelling",
+        "geometry": "interleaved",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B10",
+        "family": "lmc_cancelling",
+        "geometry": "interleaved",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B11",
+        "family": "lmc_cancelling",
+        "geometry": "separated",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B12",
+        "family": "lmc_cancelling",
+        "geometry": "separated",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B13",
+        "family": "ar_fidelity",
+        "geometry": "isotopic",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B14",
+        "family": "ar_fidelity",
+        "geometry": "isotopic",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B15",
+        "family": "ar_fidelity",
+        "geometry": "interleaved",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B16",
+        "family": "ar_fidelity",
+        "geometry": "interleaved",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B17",
+        "family": "ar_fidelity",
+        "geometry": "separated",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B18",
+        "family": "ar_fidelity",
+        "geometry": "separated",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B19",
+        "family": "trend_confounded",
+        "geometry": "isotopic",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B20",
+        "family": "trend_confounded",
+        "geometry": "isotopic",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B21",
+        "family": "trend_confounded",
+        "geometry": "interleaved",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B22",
+        "family": "trend_confounded",
+        "geometry": "interleaved",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B23",
+        "family": "trend_confounded",
+        "geometry": "separated",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B24",
+        "family": "trend_confounded",
+        "geometry": "separated",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B25",
+        "family": "heteroscedastic",
+        "geometry": "isotopic",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B26",
+        "family": "heteroscedastic",
+        "geometry": "isotopic",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B27",
+        "family": "heteroscedastic",
+        "geometry": "interleaved",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B28",
+        "family": "heteroscedastic",
+        "geometry": "interleaved",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B29",
+        "family": "heteroscedastic",
+        "geometry": "separated",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B30",
+        "family": "heteroscedastic",
+        "geometry": "separated",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": true
+      },
+      {
+        "id": "B31",
+        "family": "heavy_tailed",
+        "geometry": "isotopic",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": false
+      },
+      {
+        "id": "B32",
+        "family": "heavy_tailed",
+        "geometry": "isotopic",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": false
+      },
+      {
+        "id": "B33",
+        "family": "heavy_tailed",
+        "geometry": "interleaved",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": false
+      },
+      {
+        "id": "B34",
+        "family": "heavy_tailed",
+        "geometry": "interleaved",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": false
+      },
+      {
+        "id": "B35",
+        "family": "heavy_tailed",
+        "geometry": "separated",
+        "n1": 20,
+        "n2": 20,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": false
+      },
+      {
+        "id": "B36",
+        "family": "heavy_tailed",
+        "geometry": "separated",
+        "n1": 40,
+        "n2": 40,
+        "working_kernel": "matern32",
+        "dimension": 1,
+        "replicates": 200,
+        "conditional_reference": false
+      }
+    ],
+    "scales": [
+      {
+        "id": "A01",
+        "dimension": 2,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "distributed",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.28284271247461906,
+          0.28284271247461906
+        ]
+      },
+      {
+        "id": "A02",
+        "dimension": 2,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "distributed",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.05656854249492381,
+          0.28284271247461906
+        ]
+      },
+      {
+        "id": "A03",
+        "dimension": 2,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "half",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.28284271247461906,
+          0.28284271247461906
+        ]
+      },
+      {
+        "id": "A04",
+        "dimension": 2,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "half",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.05656854249492381,
+          0.28284271247461906
+        ]
+      },
+      {
+        "id": "A05",
+        "dimension": 2,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "separated",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.28284271247461906,
+          0.28284271247461906
+        ]
+      },
+      {
+        "id": "A06",
+        "dimension": 2,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "separated",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.05656854249492381,
+          0.28284271247461906
+        ]
+      },
+      {
+        "id": "A07",
+        "dimension": 2,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "distributed",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.28284271247461906,
+          0.28284271247461906
+        ]
+      },
+      {
+        "id": "A08",
+        "dimension": 2,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "distributed",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.05656854249492381,
+          0.28284271247461906
+        ]
+      },
+      {
+        "id": "A09",
+        "dimension": 2,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "half",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.28284271247461906,
+          0.28284271247461906
+        ]
+      },
+      {
+        "id": "A10",
+        "dimension": 2,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "half",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.05656854249492381,
+          0.28284271247461906
+        ]
+      },
+      {
+        "id": "A11",
+        "dimension": 2,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "separated",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.28284271247461906,
+          0.28284271247461906
+        ]
+      },
+      {
+        "id": "A12",
+        "dimension": 2,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "separated",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.05656854249492381,
+          0.28284271247461906
+        ]
+      },
+      {
+        "id": "A13",
+        "dimension": 5,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "distributed",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958
+        ]
+      },
+      {
+        "id": "A14",
+        "dimension": 5,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "distributed",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.0894427190999916,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958
+        ]
+      },
+      {
+        "id": "A15",
+        "dimension": 5,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "half",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958
+        ]
+      },
+      {
+        "id": "A16",
+        "dimension": 5,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "half",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.0894427190999916,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958
+        ]
+      },
+      {
+        "id": "A17",
+        "dimension": 5,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "separated",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958
+        ]
+      },
+      {
+        "id": "A18",
+        "dimension": 5,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "separated",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.0894427190999916,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958
+        ]
+      },
+      {
+        "id": "A19",
+        "dimension": 5,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "distributed",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958
+        ]
+      },
+      {
+        "id": "A20",
+        "dimension": 5,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "distributed",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.0894427190999916,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958
+        ]
+      },
+      {
+        "id": "A21",
+        "dimension": 5,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "half",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958
+        ]
+      },
+      {
+        "id": "A22",
+        "dimension": 5,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "half",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.0894427190999916,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958
+        ]
+      },
+      {
+        "id": "A23",
+        "dimension": 5,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "separated",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958
+        ]
+      },
+      {
+        "id": "A24",
+        "dimension": 5,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "separated",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.0894427190999916,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958,
+          0.447213595499958
+        ]
+      },
+      {
+        "id": "A25",
+        "dimension": 10,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "distributed",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676
+        ]
+      },
+      {
+        "id": "A26",
+        "dimension": 10,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "distributed",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.1264911064067352,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676
+        ]
+      },
+      {
+        "id": "A27",
+        "dimension": 10,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "half",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676
+        ]
+      },
+      {
+        "id": "A28",
+        "dimension": 10,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "half",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.1264911064067352,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676
+        ]
+      },
+      {
+        "id": "A29",
+        "dimension": 10,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "separated",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676
+        ]
+      },
+      {
+        "id": "A30",
+        "dimension": 10,
+        "n1": 20,
+        "n2": 40,
+        "geometry": "separated",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.1264911064067352,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676
+        ]
+      },
+      {
+        "id": "A31",
+        "dimension": 10,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "distributed",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676
+        ]
+      },
+      {
+        "id": "A32",
+        "dimension": 10,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "distributed",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.1264911064067352,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676
+        ]
+      },
+      {
+        "id": "A33",
+        "dimension": 10,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "half",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676
+        ]
+      },
+      {
+        "id": "A34",
+        "dimension": 10,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "half",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.1264911064067352,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676
+        ]
+      },
+      {
+        "id": "A35",
+        "dimension": 10,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "separated",
+        "anisotropy_ratio": 1,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676
+        ]
+      },
+      {
+        "id": "A36",
+        "dimension": 10,
+        "n1": 50,
+        "n2": 100,
+        "geometry": "separated",
+        "anisotropy_ratio": 5,
+        "rho": 0.7,
+        "noise_variance": 0.05,
+        "replicates": 100,
+        "lengthscale": [
+          0.1264911064067352,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676,
+          0.632455532033676
+        ]
+      }
+    ],
+    "q1": [
+      {
+        "id": "isotopic",
+        "geometry": "isotopic",
+        "n1": 14,
+        "n2": 14
+      },
+      {
+        "id": "interleaved",
+        "geometry": "interleaved",
+        "n1": 14,
+        "n2": 14
+      },
+      {
+        "id": "separated",
+        "geometry": "separated",
+        "n1": 14,
+        "n2": 14
+      }
+    ],
+    "q2": [
+      {
+        "id": "Q01",
+        "n1": 8,
+        "n2": 60,
+        "geometry": "distributed"
+      },
+      {
+        "id": "Q02",
+        "n1": 8,
+        "n2": 60,
+        "geometry": "lower_half"
+      },
+      {
+        "id": "Q03",
+        "n1": 8,
+        "n2": 60,
+        "geometry": "outside"
+      },
+      {
+        "id": "Q04",
+        "n1": 12,
+        "n2": 60,
+        "geometry": "distributed"
+      },
+      {
+        "id": "Q05",
+        "n1": 12,
+        "n2": 60,
+        "geometry": "lower_half"
+      },
+      {
+        "id": "Q06",
+        "n1": 12,
+        "n2": 60,
+        "geometry": "outside"
+      },
+      {
+        "id": "Q07",
+        "n1": 20,
+        "n2": 60,
+        "geometry": "distributed"
+      },
+      {
+        "id": "Q08",
+        "n1": 20,
+        "n2": 60,
+        "geometry": "lower_half"
+      },
+      {
+        "id": "Q09",
+        "n1": 20,
+        "n2": 60,
+        "geometry": "outside"
+      }
+    ]
+  },
+  "replicates": {
+    "balanced": 200,
+    "robustness": 200,
+    "scales": 100,
+    "q1": 200,
+    "q2": 200
+  },
+  "fit_config": {
+    "balanced": {
+      "primary": {
+        "kernel": "matern32",
+        "ard": false,
+        "maxiter": 1000,
+        "ftol": 1e-08,
+        "gtol": 1e-05,
+        "lengthscale_bounds": [
+          0.01,
+          3.0
+        ],
+        "signal_variance_bounds": [
+          0.0025,
+          25.0
+        ],
+        "noise_variance_bounds": [
+          1e-06,
+          2.0
+        ],
+        "partial_correlation_limit": 0.995,
+        "jitter_scale": 1.0,
+        "jitter_ladder": [
+          1e-10,
+          1e-09,
+          1e-08,
+          1e-07,
+          1e-06,
+          1e-05
+        ],
+        "starts": 4
+      }
+    },
+    "robustness": {
+      "primary": {
+        "kernel": "matern32",
+        "ard": false,
+        "maxiter": 1000,
+        "ftol": 1e-08,
+        "gtol": 1e-05,
+        "lengthscale_bounds": [
+          0.01,
+          3.0
+        ],
+        "signal_variance_bounds": [
+          0.0025,
+          25.0
+        ],
+        "noise_variance_bounds": [
+          1e-06,
+          2.0
+        ],
+        "partial_correlation_limit": 0.995,
+        "jitter_scale": 1.0,
+        "jitter_ladder": [
+          1e-10,
+          1e-09,
+          1e-08,
+          1e-07,
+          1e-06,
+          1e-05
+        ],
+        "starts": 4
+      }
+    },
+    "scales": {
+      "ard": {
+        "kernel": "matern32",
+        "ard": true,
+        "maxiter": 1000,
+        "ftol": 1e-08,
+        "gtol": 1e-05,
+        "lengthscale_bounds": [
+          0.01,
+          3.0
+        ],
+        "signal_variance_bounds": [
+          0.0025,
+          25.0
+        ],
+        "noise_variance_bounds": [
+          1e-06,
+          2.0
+        ],
+        "partial_correlation_limit": 0.995,
+        "jitter_scale": 1.0,
+        "jitter_ladder": [
+          1e-10,
+          1e-09,
+          1e-08,
+          1e-07,
+          1e-06,
+          1e-05
+        ],
+        "starts": 4
+      },
+      "isotropic": {
+        "kernel": "matern32",
+        "ard": false,
+        "maxiter": 1000,
+        "ftol": 1e-08,
+        "gtol": 1e-05,
+        "lengthscale_bounds": [
+          0.01,
+          3.0
+        ],
+        "signal_variance_bounds": [
+          0.0025,
+          25.0
+        ],
+        "noise_variance_bounds": [
+          1e-06,
+          2.0
+        ],
+        "partial_correlation_limit": 0.995,
+        "jitter_scale": 1.0,
+        "jitter_ladder": [
+          1e-10,
+          1e-09,
+          1e-08,
+          1e-07,
+          1e-06,
+          1e-05
+        ],
+        "starts": 4
+      }
+    },
+    "q1": {
+      "centred": {
+        "kernel": "matern32",
+        "ard": false,
+        "maxiter": 1000,
+        "ftol": 1e-08,
+        "gtol": 1e-05,
+        "lengthscale_bounds": [
+          0.005,
+          1.5
+        ],
+        "signal_variance_bounds": [
+          0.0025,
+          25.0
+        ],
+        "noise_variance_bounds": [
+          1e-08,
+          2.0
+        ],
+        "partial_correlation_limit": 0.995,
+        "jitter_scale": 1.0,
+        "jitter_ladder": [
+          1e-10,
+          1e-09,
+          1e-08,
+          1e-07,
+          1e-06,
+          1e-05
+        ],
+        "starts": 4
+      },
+      "linear": {
+        "kernel": "matern32",
+        "ard": false,
+        "maxiter": 1000,
+        "ftol": 1e-08,
+        "gtol": 1e-05,
+        "lengthscale_bounds": [
+          0.005,
+          1.5
+        ],
+        "signal_variance_bounds": [
+          0.0025,
+          25.0
+        ],
+        "noise_variance_bounds": [
+          1e-08,
+          2.0
+        ],
+        "partial_correlation_limit": 0.995,
+        "jitter_scale": 1.0,
+        "jitter_ladder": [
+          1e-10,
+          1e-09,
+          1e-08,
+          1e-07,
+          1e-06,
+          1e-05
+        ],
+        "starts": 4
+      }
+    },
+    "q2": {
+      "centred": {
+        "kernel": "matern32",
+        "ard": false,
+        "maxiter": 1000,
+        "ftol": 1e-08,
+        "gtol": 1e-05,
+        "lengthscale_bounds": [
+          0.01,
+          3.0
+        ],
+        "signal_variance_bounds": [
+          0.0025,
+          25.0
+        ],
+        "noise_variance_bounds": [
+          1e-08,
+          2.0
+        ],
+        "partial_correlation_limit": 0.995,
+        "jitter_scale": 1.0,
+        "jitter_ladder": [
+          1e-10,
+          1e-09,
+          1e-08,
+          1e-07,
+          1e-06,
+          1e-05
+        ],
+        "starts": 4
+      },
+      "linear": {
+        "kernel": "matern32",
+        "ard": false,
+        "maxiter": 1000,
+        "ftol": 1e-08,
+        "gtol": 1e-05,
+        "lengthscale_bounds": [
+          0.01,
+          3.0
+        ],
+        "signal_variance_bounds": [
+          0.0025,
+          25.0
+        ],
+        "noise_variance_bounds": [
+          1e-08,
+          2.0
+        ],
+        "partial_correlation_limit": 0.995,
+        "jitter_scale": 1.0,
+        "jitter_ladder": [
+          1e-10,
+          1e-09,
+          1e-08,
+          1e-07,
+          1e-06,
+          1e-05
+        ],
+        "starts": 4
+      }
+    }
+  }
+}

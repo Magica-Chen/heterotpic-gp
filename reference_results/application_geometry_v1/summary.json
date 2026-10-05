@@ -1,0 +1,620 @@
+{
+  "scope": "Descriptive reporting on existing application evaluations; no refitting or new resampling.",
+  "tqa_aggregation": "BPI: local indices averaged over the 49-point prediction grid, then over 200 datasets per cell. Conditional opportunity: full-data fitted score; table reports its median. Exclusion and final JOINT selection: percentages of all 200 datasets per cell.",
+  "aqs_aggregation": "Primary instruments, zero buffer. Distances use each held-out point's training information set. BPI is computed pointwise from target and nearest-any-auxiliary distances. Average ten partitions within site, sites within pollutant, and three pollutants equally. Geometry is descriptive of the observed networks and partitions.",
+  "tqa": {
+    "primary_mean": "centred",
+    "threshold": 0.2,
+    "rows": [
+      {
+        "scenario": {
+          "geometry": "distributed",
+          "id": "Q01",
+          "n1": 8,
+          "n2": 60
+        },
+        "datasets": 200,
+        "exact_overlap_count": 0,
+        "bpi": {
+          "mean": 0.5551319054748118,
+          "median": 0.5545253272866111,
+          "q25": 0.5371393162616465,
+          "q75": 0.5745404612769002,
+          "minimum": 0.49226998139917405,
+          "maximum": 0.6168316944406692
+        },
+        "conditional_opportunity": {
+          "mean": 0.8530699701948896,
+          "median": 0.8560884071388641,
+          "q25": 0.8292350894287159,
+          "q75": 0.8777420206697515,
+          "minimum": 0.7593710164003337,
+          "maximum": 0.9375405948957505
+        },
+        "selected_counts": {
+          "independent": 1,
+          "diagonal": 17,
+          "joint": 182
+        },
+        "joint_selected_percent": 91.0,
+        "exclusion_percent": 0.0
+      },
+      {
+        "scenario": {
+          "geometry": "lower_half",
+          "id": "Q02",
+          "n1": 8,
+          "n2": 60
+        },
+        "datasets": 200,
+        "exact_overlap_count": 0,
+        "bpi": {
+          "mean": 0.37548429708809694,
+          "median": 0.3745716849770968,
+          "q25": 0.3621351635660939,
+          "q75": 0.38837663281333706,
+          "minimum": 0.3298795109659157,
+          "maximum": 0.42240519699232454
+        },
+        "conditional_opportunity": {
+          "mean": 0.5587481680778452,
+          "median": 0.5482378281133753,
+          "q25": 0.5043925111743612,
+          "q75": 0.6127412777802932,
+          "minimum": 0.38007089537476485,
+          "maximum": 0.7373422105003146
+        },
+        "selected_counts": {
+          "independent": 14,
+          "diagonal": 61,
+          "joint": 125
+        },
+        "joint_selected_percent": 62.5,
+        "exclusion_percent": 0.0
+      },
+      {
+        "scenario": {
+          "geometry": "outside",
+          "id": "Q03",
+          "n1": 8,
+          "n2": 60
+        },
+        "datasets": 200,
+        "exact_overlap_count": 0,
+        "bpi": {
+          "mean": 0.0011050172981872256,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.0012721122334585925,
+          "minimum": 0.0,
+          "maximum": 0.014363646540259109
+        },
+        "conditional_opportunity": {
+          "mean": 0.17711447049063225,
+          "median": 0.16093973367287756,
+          "q25": 0.1288498703632803,
+          "q75": 0.21906836360045795,
+          "minimum": 0.05938181541025025,
+          "maximum": 0.38403395798502465
+        },
+        "selected_counts": {
+          "independent": 35,
+          "diagonal": 155,
+          "joint": 10
+        },
+        "joint_selected_percent": 5.0,
+        "exclusion_percent": 68.5
+      },
+      {
+        "scenario": {
+          "geometry": "distributed",
+          "id": "Q04",
+          "n1": 12,
+          "n2": 60
+        },
+        "datasets": 200,
+        "exact_overlap_count": 0,
+        "bpi": {
+          "mean": 0.4847766032355335,
+          "median": 0.48507827092170264,
+          "q25": 0.46949354884737937,
+          "q75": 0.5008510831844859,
+          "minimum": 0.4174451253804998,
+          "maximum": 0.5672195319366647
+        },
+        "conditional_opportunity": {
+          "mean": 0.7736224198966772,
+          "median": 0.7705976753184105,
+          "q25": 0.7356218419847905,
+          "q75": 0.8112866683116267,
+          "minimum": 0.6385611002484741,
+          "maximum": 0.9191719475942692
+        },
+        "selected_counts": {
+          "independent": 17,
+          "diagonal": 19,
+          "joint": 164
+        },
+        "joint_selected_percent": 82.0,
+        "exclusion_percent": 0.0
+      },
+      {
+        "scenario": {
+          "geometry": "lower_half",
+          "id": "Q05",
+          "n1": 12,
+          "n2": 60
+        },
+        "datasets": 200,
+        "exact_overlap_count": 0,
+        "bpi": {
+          "mean": 0.3333873798025284,
+          "median": 0.3337028152566964,
+          "q25": 0.32216974997249487,
+          "q75": 0.3446744873183567,
+          "minimum": 0.28804385834862994,
+          "maximum": 0.3791717033836243
+        },
+        "conditional_opportunity": {
+          "mean": 0.4766243887182889,
+          "median": 0.4687609058427509,
+          "q25": 0.41946877844736863,
+          "q75": 0.5319798825556629,
+          "minimum": 0.30050289679584585,
+          "maximum": 0.675711554685133
+        },
+        "selected_counts": {
+          "independent": 71,
+          "diagonal": 42,
+          "joint": 87
+        },
+        "joint_selected_percent": 43.5,
+        "exclusion_percent": 0.0
+      },
+      {
+        "scenario": {
+          "geometry": "outside",
+          "id": "Q06",
+          "n1": 12,
+          "n2": 60
+        },
+        "datasets": 200,
+        "exact_overlap_count": 0,
+        "bpi": {
+          "mean": 0.00034334755468281105,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.011166338610110817
+        },
+        "conditional_opportunity": {
+          "mean": 0.13273554286135605,
+          "median": 0.11821063476550843,
+          "q25": 0.08935496724435105,
+          "q75": 0.17172117504953543,
+          "minimum": 0.04353054527020704,
+          "maximum": 0.341357404285265
+        },
+        "selected_counts": {
+          "independent": 115,
+          "diagonal": 84,
+          "joint": 1
+        },
+        "joint_selected_percent": 0.5,
+        "exclusion_percent": 86.0
+      },
+      {
+        "scenario": {
+          "geometry": "distributed",
+          "id": "Q07",
+          "n1": 20,
+          "n2": 60
+        },
+        "datasets": 200,
+        "exact_overlap_count": 0,
+        "bpi": {
+          "mean": 0.39127070221831334,
+          "median": 0.3904552628652098,
+          "q25": 0.37410977391544564,
+          "q75": 0.40670811283196046,
+          "minimum": 0.3036763977356862,
+          "maximum": 0.45399240031815624
+        },
+        "conditional_opportunity": {
+          "mean": 0.6274514871630592,
+          "median": 0.6321517186266565,
+          "q25": 0.581237714670795,
+          "q75": 0.673872458020585,
+          "minimum": 0.3756139369394974,
+          "maximum": 0.804507329043477
+        },
+        "selected_counts": {
+          "independent": 60,
+          "diagonal": 1,
+          "joint": 139
+        },
+        "joint_selected_percent": 69.5,
+        "exclusion_percent": 0.0
+      },
+      {
+        "scenario": {
+          "geometry": "lower_half",
+          "id": "Q08",
+          "n1": 20,
+          "n2": 60
+        },
+        "datasets": 200,
+        "exact_overlap_count": 0,
+        "bpi": {
+          "mean": 0.2797060307941003,
+          "median": 0.27891035323887553,
+          "q25": 0.26747134752911017,
+          "q75": 0.2905680236820553,
+          "minimum": 0.23591746130333524,
+          "maximum": 0.3305741925751842
+        },
+        "conditional_opportunity": {
+          "mean": 0.3765179331554296,
+          "median": 0.37377348226497675,
+          "q25": 0.311559646912969,
+          "q75": 0.42952136900295645,
+          "minimum": 0.18051985149669383,
+          "maximum": 0.6323510921809249
+        },
+        "selected_counts": {
+          "independent": 168,
+          "diagonal": 1,
+          "joint": 31
+        },
+        "joint_selected_percent": 15.5,
+        "exclusion_percent": 1.0
+      },
+      {
+        "scenario": {
+          "geometry": "outside",
+          "id": "Q09",
+          "n1": 20,
+          "n2": 60
+        },
+        "datasets": 200,
+        "exact_overlap_count": 0,
+        "bpi": {
+          "mean": 2.0901572472829055e-05,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.004180314494565811
+        },
+        "conditional_opportunity": {
+          "mean": 0.08704762142594126,
+          "median": 0.07534817763235599,
+          "q25": 0.04760114495186515,
+          "q75": 0.106654956389455,
+          "minimum": 0.01872307427236501,
+          "maximum": 0.30729869592761355
+        },
+        "selected_counts": {
+          "independent": 199,
+          "diagonal": 1,
+          "joint": 0
+        },
+        "joint_selected_percent": 0.0,
+        "exclusion_percent": 97.0
+      }
+    ]
+  },
+  "aqs": {
+    "state_task": [
+      {
+        "state": 6,
+        "task": "A",
+        "target_distance_km": 26.87398438505835,
+        "auxiliary_distance_km": 7.952840954546509,
+        "bpi": 0.8067322879401306
+      },
+      {
+        "state": 6,
+        "task": "B",
+        "target_distance_km": 27.13034003567095,
+        "auxiliary_distance_km": 25.006055244238016,
+        "bpi": 0.14154179754647925
+      },
+      {
+        "state": 6,
+        "task": "C",
+        "target_distance_km": 110.63696661354037,
+        "auxiliary_distance_km": 107.00671413336698,
+        "bpi": 0.0637538414752606
+      },
+      {
+        "state": 8,
+        "task": "A",
+        "target_distance_km": 42.38184770088784,
+        "auxiliary_distance_km": 23.37448841734596,
+        "bpi": 0.7225614573146045
+      },
+      {
+        "state": 8,
+        "task": "B",
+        "target_distance_km": 45.48177953392814,
+        "auxiliary_distance_km": 43.576155306824525,
+        "bpi": 0.24539203384393116
+      },
+      {
+        "state": 8,
+        "task": "C",
+        "target_distance_km": 210.22988409048324,
+        "auxiliary_distance_km": 180.066001660953,
+        "bpi": 0.1601222603551061
+      },
+      {
+        "state": 48,
+        "task": "A",
+        "target_distance_km": 43.79750947193608,
+        "auxiliary_distance_km": 14.474706816295283,
+        "bpi": 0.746820484475543
+      },
+      {
+        "state": 48,
+        "task": "B",
+        "target_distance_km": 43.77471488250688,
+        "auxiliary_distance_km": 35.740287742406274,
+        "bpi": 0.14066568746576685
+      },
+      {
+        "state": 48,
+        "task": "C",
+        "target_distance_km": 244.41247005545605,
+        "auxiliary_distance_km": 225.45045374530278,
+        "bpi": 0.09914989493455643
+      }
+    ],
+    "pollutant": [
+      {
+        "state": 6,
+        "task": "A",
+        "parameter": 42602,
+        "target_distance_km": 26.154647516853334,
+        "auxiliary_distance_km": 0.1332100168516808,
+        "bpi": 0.9616765493766555,
+        "sites": 73
+      },
+      {
+        "state": 6,
+        "task": "A",
+        "parameter": 44201,
+        "target_distance_km": 27.870340714761902,
+        "auxiliary_distance_km": 8.822857893806342,
+        "bpi": 0.7564738269790409,
+        "sites": 124
+      },
+      {
+        "state": 6,
+        "task": "A",
+        "parameter": 88101,
+        "target_distance_km": 26.596964923559817,
+        "auxiliary_distance_km": 14.902454952981502,
+        "bpi": 0.7020464874646956,
+        "sites": 111
+      },
+      {
+        "state": 6,
+        "task": "B",
+        "parameter": 42602,
+        "target_distance_km": 25.941095771119183,
+        "auxiliary_distance_km": 16.759116652787576,
+        "bpi": 0.1659660828187251,
+        "sites": 73
+      },
+      {
+        "state": 6,
+        "task": "B",
+        "parameter": 44201,
+        "target_distance_km": 27.85534019762468,
+        "auxiliary_distance_km": 26.143421362810255,
+        "bpi": 0.11330953303508062,
+        "sites": 124
+      },
+      {
+        "state": 6,
+        "task": "B",
+        "parameter": 88101,
+        "target_distance_km": 27.594584138268985,
+        "auxiliary_distance_km": 32.11562771711622,
+        "bpi": 0.145349776785632,
+        "sites": 111
+      },
+      {
+        "state": 6,
+        "task": "C",
+        "parameter": 42602,
+        "target_distance_km": 110.04096297290033,
+        "auxiliary_distance_km": 99.8031125395211,
+        "bpi": 0.08937893161734553,
+        "sites": 73
+      },
+      {
+        "state": 6,
+        "task": "C",
+        "parameter": 44201,
+        "target_distance_km": 106.7233951029474,
+        "auxiliary_distance_km": 107.1527710240901,
+        "bpi": 0.02515080957691171,
+        "sites": 124
+      },
+      {
+        "state": 6,
+        "task": "C",
+        "parameter": 88101,
+        "target_distance_km": 115.14654176477335,
+        "auxiliary_distance_km": 114.06425883648976,
+        "bpi": 0.07673178323152456,
+        "sites": 111
+      },
+      {
+        "state": 8,
+        "task": "A",
+        "parameter": 42602,
+        "target_distance_km": 37.32212615914463,
+        "auxiliary_distance_km": 0.0,
+        "bpi": 1.0,
+        "sites": 11
+      },
+      {
+        "state": 8,
+        "task": "A",
+        "parameter": 44201,
+        "target_distance_km": 30.056501827340252,
+        "auxiliary_distance_km": 48.37193764645697,
+        "bpi": 0.40644855299339117,
+        "sites": 38
+      },
+      {
+        "state": 8,
+        "task": "A",
+        "parameter": 88101,
+        "target_distance_km": 59.76691511617862,
+        "auxiliary_distance_km": 21.751527605580918,
+        "bpi": 0.7612358189504224,
+        "sites": 17
+      },
+      {
+        "state": 8,
+        "task": "B",
+        "parameter": 42602,
+        "target_distance_km": 45.77244632024673,
+        "auxiliary_distance_km": 26.699945148951272,
+        "bpi": 0.2395690129661595,
+        "sites": 11
+      },
+      {
+        "state": 8,
+        "task": "B",
+        "parameter": 44201,
+        "target_distance_km": 32.543834713507984,
+        "auxiliary_distance_km": 68.93309385823484,
+        "bpi": 0.145048340669144,
+        "sites": 38
+      },
+      {
+        "state": 8,
+        "task": "B",
+        "parameter": 88101,
+        "target_distance_km": 58.1290575680297,
+        "auxiliary_distance_km": 35.095426913287454,
+        "bpi": 0.35155874789648994,
+        "sites": 17
+      },
+      {
+        "state": 8,
+        "task": "C",
+        "parameter": 42602,
+        "target_distance_km": 236.9992535153844,
+        "auxiliary_distance_km": 166.96516080726033,
+        "bpi": 0.26867039323377706,
+        "sites": 11
+      },
+      {
+        "state": 8,
+        "task": "C",
+        "parameter": 44201,
+        "target_distance_km": 178.1038591958094,
+        "auxiliary_distance_km": 194.0759921756871,
+        "bpi": 0.03657776885689429,
+        "sites": 38
+      },
+      {
+        "state": 8,
+        "task": "C",
+        "parameter": 88101,
+        "target_distance_km": 215.58653956025597,
+        "auxiliary_distance_km": 179.15685199991154,
+        "bpi": 0.17511861897464692,
+        "sites": 17
+      },
+      {
+        "state": 48,
+        "task": "A",
+        "parameter": 42602,
+        "target_distance_km": 42.03571773672757,
+        "auxiliary_distance_km": 1.847367978079678,
+        "bpi": 0.9284374623344007,
+        "sites": 48
+      },
+      {
+        "state": 48,
+        "task": "A",
+        "parameter": 44201,
+        "target_distance_km": 42.60848290453733,
+        "auxiliary_distance_km": 14.980652740745372,
+        "bpi": 0.6935376915867231,
+        "sites": 71
+      },
+      {
+        "state": 48,
+        "task": "A",
+        "parameter": 88101,
+        "target_distance_km": 46.74832777454334,
+        "auxiliary_distance_km": 26.5960997300608,
+        "bpi": 0.6184862995055052,
+        "sites": 43
+      },
+      {
+        "state": 48,
+        "task": "B",
+        "parameter": 42602,
+        "target_distance_km": 42.459184437285664,
+        "auxiliary_distance_km": 21.85328326849942,
+        "bpi": 0.12252901540408993,
+        "sites": 48
+      },
+      {
+        "state": 48,
+        "task": "B",
+        "parameter": 44201,
+        "target_distance_km": 42.170068905887554,
+        "auxiliary_distance_km": 41.311029009634716,
+        "bpi": 0.12402968920207214,
+        "sites": 71
+      },
+      {
+        "state": 48,
+        "task": "B",
+        "parameter": 88101,
+        "target_distance_km": 46.694891304347415,
+        "auxiliary_distance_km": 44.05655094908468,
+        "bpi": 0.1754383577911385,
+        "sites": 43
+      },
+      {
+        "state": 48,
+        "task": "C",
+        "parameter": 42602,
+        "target_distance_km": 241.74086114883406,
+        "auxiliary_distance_km": 205.9005623271305,
+        "bpi": 0.1432024798081042,
+        "sites": 48
+      },
+      {
+        "state": 48,
+        "task": "C",
+        "parameter": 44201,
+        "target_distance_km": 252.27232332694652,
+        "auxiliary_distance_km": 258.3206513999586,
+        "bpi": 0.025670009097023393,
+        "sites": 71
+      },
+      {
+        "state": 48,
+        "task": "C",
+        "parameter": 88101,
+        "target_distance_km": 239.2242256905875,
+        "auxiliary_distance_km": 212.13014750881928,
+        "bpi": 0.12857719589854172,
+        "sites": 43
+      }
+    ]
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "chosen": {
+    "screen": {
+      "method": "screen",
+      "threshold": 0.2,
+      "admissible": true,
+      "mean_component_seconds": 0.3390502118409252,
+      "risk_excess_fraction": -0.00018821273555782688,
+      "upper_risk_excess_fraction": 0.002614204256910752,
+      "upper_positive_regret_fraction": 0.0014240689766528457,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010588342559415239,
+        "infill": 0.0,
+        "partial": 6.707320650345804e-06,
+        "remote": 6.233585545542979e-08
+      },
+      "excluded": 1595,
+      "false_exclusions": 50
+    },
+    "loose": {
+      "method": "loose",
+      "threshold": 0.2,
+      "admissible": true,
+      "mean_component_seconds": 0.3411002855833552,
+      "risk_excess_fraction": -0.00018618718782372571,
+      "upper_risk_excess_fraction": 0.002619467069304603,
+      "upper_positive_regret_fraction": 0.0014113537342737503,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010563423038776302,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 6.233585545542979e-08
+      },
+      "excluded": 1550,
+      "false_exclusions": 49
+    }
+  },
+  "all_candidates": [
+    {
+      "method": "screen",
+      "threshold": 0.0,
+      "admissible": true,
+      "mean_component_seconds": 0.3923450355722768,
+      "risk_excess_fraction": 0.0,
+      "upper_risk_excess_fraction": 0.0,
+      "upper_positive_regret_fraction": 0.0,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.0,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 0.0
+      },
+      "excluded": 0,
+      "false_exclusions": 0
+    },
+    {
+      "method": "screen",
+      "threshold": 0.0025,
+      "admissible": true,
+      "mean_component_seconds": 0.3407790703791155,
+      "risk_excess_fraction": -0.00018959056448470104,
+      "upper_risk_excess_fraction": 0.0026154932281858413,
+      "upper_positive_regret_fraction": 0.0012449288298012479,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010545471150128542,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 6.233585545542979e-08
+      },
+      "excluded": 1573,
+      "false_exclusions": 44
+    },
+    {
+      "method": "screen",
+      "threshold": 0.005,
+      "admissible": true,
+      "mean_component_seconds": 0.3407333033214066,
+      "risk_excess_fraction": -0.00018959056448470104,
+      "upper_risk_excess_fraction": 0.0026154932281858413,
+      "upper_positive_regret_fraction": 0.0012449288298012479,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010545471150128542,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 6.233585545542979e-08
+      },
+      "excluded": 1575,
+      "false_exclusions": 44
+    },
+    {
+      "method": "screen",
+      "threshold": 0.01,
+      "admissible": true,
+      "mean_component_seconds": 0.340677291646601,
+      "risk_excess_fraction": -0.00018959056448470104,
+      "upper_risk_excess_fraction": 0.0026154932281858413,
+      "upper_positive_regret_fraction": 0.0014020009657234136,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010545471150128542,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 6.233585545542979e-08
+      },
+      "excluded": 1577,
+      "false_exclusions": 45
+    },
+    {
+      "method": "screen",
+      "threshold": 0.02,
+      "admissible": true,
+      "mean_component_seconds": 0.3406399164784913,
+      "risk_excess_fraction": -0.00018959056448470104,
+      "upper_risk_excess_fraction": 0.0026154932281858413,
+      "upper_positive_regret_fraction": 0.0014020009657234136,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010545471150128542,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 6.233585545542979e-08
+      },
+      "excluded": 1578,
+      "false_exclusions": 45
+    },
+    {
+      "method": "screen",
+      "threshold": 0.05,
+      "admissible": true,
+      "mean_component_seconds": 0.3403996389128891,
+      "risk_excess_fraction": -0.00018301283701322146,
+      "upper_risk_excess_fraction": 0.002626765058005136,
+      "upper_positive_regret_fraction": 0.0014057372467930818,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010563443655546416,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 6.233585545542979e-08
+      },
+      "excluded": 1582,
+      "false_exclusions": 48
+    },
+    {
+      "method": "screen",
+      "threshold": 0.1,
+      "admissible": true,
+      "mean_component_seconds": 0.3401999401414711,
+      "risk_excess_fraction": -0.00018371966435460778,
+      "upper_risk_excess_fraction": 0.002626766562544001,
+      "upper_positive_regret_fraction": 0.0014115625951568915,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010563423038776302,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 6.233585545542979e-08
+      },
+      "excluded": 1585,
+      "false_exclusions": 49
+    },
+    {
+      "method": "screen",
+      "threshold": 0.2,
+      "admissible": true,
+      "mean_component_seconds": 0.3390502118409252,
+      "risk_excess_fraction": -0.00018821273555782688,
+      "upper_risk_excess_fraction": 0.002614204256910752,
+      "upper_positive_regret_fraction": 0.0014240689766528457,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010588342559415239,
+        "infill": 0.0,
+        "partial": 6.707320650345804e-06,
+        "remote": 6.233585545542979e-08
+      },
+      "excluded": 1595,
+      "false_exclusions": 50
+    },
+    {
+      "method": "loose",
+      "threshold": 0.0,
+      "admissible": true,
+      "mean_component_seconds": 0.3923450355722768,
+      "risk_excess_fraction": 0.0,
+      "upper_risk_excess_fraction": 0.0,
+      "upper_positive_regret_fraction": 0.0,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.0,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 0.0
+      },
+      "excluded": 0,
+      "false_exclusions": 0
+    },
+    {
+      "method": "loose",
+      "threshold": 0.0025,
+      "admissible": true,
+      "mean_component_seconds": 0.3589189865060507,
+      "risk_excess_fraction": -0.00018959578711193667,
+      "upper_risk_excess_fraction": 0.00261548825427187,
+      "upper_positive_regret_fraction": 0.0012441652854192037,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010545471150128542,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 0.0
+      },
+      "excluded": 960,
+      "false_exclusions": 44
+    },
+    {
+      "method": "loose",
+      "threshold": 0.005,
+      "admissible": true,
+      "mean_component_seconds": 0.3556293003116662,
+      "risk_excess_fraction": -0.00018959578711193667,
+      "upper_risk_excess_fraction": 0.00261548825427187,
+      "upper_positive_regret_fraction": 0.001244198767392325,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010545471150128542,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 0.0
+      },
+      "excluded": 1076,
+      "false_exclusions": 44
+    },
+    {
+      "method": "loose",
+      "threshold": 0.01,
+      "admissible": true,
+      "mean_component_seconds": 0.35221651208793747,
+      "risk_excess_fraction": -0.00018959578711193667,
+      "upper_risk_excess_fraction": 0.00261548825427187,
+      "upper_positive_regret_fraction": 0.0014006251318775843,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010545471150128542,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 0.0
+      },
+      "excluded": 1185,
+      "false_exclusions": 45
+    },
+    {
+      "method": "loose",
+      "threshold": 0.02,
+      "admissible": true,
+      "mean_component_seconds": 0.3493750038688631,
+      "risk_excess_fraction": -0.00018959578711193667,
+      "upper_risk_excess_fraction": 0.00261548825427187,
+      "upper_positive_regret_fraction": 0.001400731561860015,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010545471150128542,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 0.0
+      },
+      "excluded": 1275,
+      "false_exclusions": 45
+    },
+    {
+      "method": "loose",
+      "threshold": 0.05,
+      "admissible": true,
+      "mean_component_seconds": 0.3458312438510317,
+      "risk_excess_fraction": -0.0001827480308823306,
+      "upper_risk_excess_fraction": 0.0026270437595908493,
+      "upper_positive_regret_fraction": 0.0014039448282249052,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010563497690059001,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 0.0
+      },
+      "excluded": 1407,
+      "false_exclusions": 47
+    },
+    {
+      "method": "loose",
+      "threshold": 0.1,
+      "admissible": true,
+      "mean_component_seconds": 0.34325989372653565,
+      "risk_excess_fraction": -0.00018301805964045708,
+      "upper_risk_excess_fraction": 0.0026267592921328446,
+      "upper_positive_regret_fraction": 0.0014051098398590153,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010563443655546416,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 0.0
+      },
+      "excluded": 1486,
+      "false_exclusions": 48
+    },
+    {
+      "method": "loose",
+      "threshold": 0.2,
+      "admissible": true,
+      "mean_component_seconds": 0.3411002855833552,
+      "risk_excess_fraction": -0.00018618718782372571,
+      "upper_risk_excess_fraction": 0.002619467069304603,
+      "upper_positive_regret_fraction": 0.0014113537342737503,
+      "geometry_upper_risk_excess_fraction": {
+        "colocated": 0.010563423038776302,
+        "infill": 0.0,
+        "partial": 0.0,
+        "remote": 6.233585545542979e-08
+      },
+      "excluded": 1550,
+      "false_exclusions": 49
+    }
+  ],
+  "calibration_datasets": 4800,
+  "direct_mean_component_seconds": 0.38167470399377634,
+  "bootstrap_replicates": 2000,
+  "constraints": "Upper one-sided pointwise bootstrap percentiles: 1% pooled excess risk versus direct, 1% positive exclusion regret, 2% excess risk within each geometry; fractions of separate marginal risk.",
+  "scope": "Empirical calibration constraints; independent evaluation assesses the selected thresholds."
+}

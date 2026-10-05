@@ -1,0 +1,35 @@
+[
+  {
+    "dimension": 2,
+    "datasets": 120,
+    "scenario_decision_changes": 2,
+    "global_to_box_retention": 0,
+    "max_box_minus_global": 0.09173509088562587,
+    "dense_datasets": 24,
+    "dense_gate_disagreements": 0,
+    "dense_minus_box_min": 0.0,
+    "dense_minus_box_max": 0.015614413338997546
+  },
+  {
+    "dimension": 5,
+    "datasets": 120,
+    "scenario_decision_changes": 65,
+    "global_to_box_retention": 1,
+    "max_box_minus_global": 0.06648565011235383,
+    "dense_datasets": 0,
+    "dense_gate_disagreements": 0,
+    "dense_minus_box_min": null,
+    "dense_minus_box_max": null
+  },
+  {
+    "dimension": 10,
+    "datasets": 120,
+    "scenario_decision_changes": 83,
+    "global_to_box_retention": 1,
+    "max_box_minus_global": 0.026172265331801947,
+    "dense_datasets": 0,
+    "dense_gate_disagreements": 0,
+    "dense_minus_box_min": null,
+    "dense_minus_box_max": null
+  }
+]

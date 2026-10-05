@@ -1,0 +1,2127 @@
+{
+  "primary_mean": "centred",
+  "threshold": 0.2,
+  "datasets": 45,
+  "records": [
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q01",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 0,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.5333989480277523,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        },
+        "transfer": {
+          "seconds": 0.542025153990835,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.5336074480437674,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q01",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 1,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.5149225150234997,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "diagonal"
+        },
+        "calibrated": {
+          "seconds": 0.5189016060321592,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "diagonal"
+        },
+        "direct": {
+          "seconds": 0.5243523669778369,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "diagonal"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q01",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 2,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.5557402530102991,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "direct": {
+          "seconds": 0.5508611039840616,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        },
+        "transfer": {
+          "seconds": 0.5409412679728121,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q01",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 3,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.497831151005812,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        },
+        "transfer": {
+          "seconds": 0.5100041859550402,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.5126359779969789,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q01",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 4,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.5110014110105112,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.5215016850270331,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "direct": {
+          "seconds": 0.5086451349779963,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q02",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 0,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.424037339980714,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "diagonal"
+        },
+        "direct": {
+          "seconds": 0.4062359970412217,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "diagonal"
+        },
+        "transfer": {
+          "seconds": 0.4203159880125895,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "diagonal"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q02",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 1,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.47602129401639104,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.49568594101583585,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        },
+        "calibrated": {
+          "seconds": 0.4828789369785227,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q02",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 2,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.5055810020421632,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.49226783198537305,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "direct": {
+          "seconds": 0.49102492397651076,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q02",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 3,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.471109411038924,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "direct": {
+          "seconds": 0.4616634440026246,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        },
+        "transfer": {
+          "seconds": 0.47068593301810324,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q02",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 4,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.47194778197444975,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        },
+        "transfer": {
+          "seconds": 0.47175813000649214,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.46349100302904844,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q03",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 0,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.3252293930272572,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "diagonal"
+        },
+        "calibrated": {
+          "seconds": 0.32566744001815096,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "diagonal"
+        },
+        "direct": {
+          "seconds": 0.49391902203205973,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "diagonal"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q03",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 1,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.4777004679781385,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "diagonal"
+        },
+        "direct": {
+          "seconds": 0.47150675096781924,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "diagonal"
+        },
+        "transfer": {
+          "seconds": 0.47370507998857647,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "diagonal"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q03",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 2,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.36144761100877076,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "diagonal"
+        },
+        "transfer": {
+          "seconds": 0.3653734030085616,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 3,
+            "scores": 5
+          },
+          "selected_model": "diagonal"
+        },
+        "calibrated": {
+          "seconds": 0.35351871396414936,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 3,
+            "scores": 5
+          },
+          "selected_model": "diagonal"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q03",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 3,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.26538021996384487,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "diagonal"
+        },
+        "calibrated": {
+          "seconds": 0.2658787430264056,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "diagonal"
+        },
+        "direct": {
+          "seconds": 0.4029470980167389,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "diagonal"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q03",
+        "n1": 8,
+        "n2": 60
+      },
+      "replication": 4,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.31273694202536717,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "diagonal"
+        },
+        "direct": {
+          "seconds": 0.5158680029562674,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "diagonal"
+        },
+        "transfer": {
+          "seconds": 0.31317549204686657,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "diagonal"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q04",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 0,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.5014975479571149,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.5173983889981173,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        },
+        "calibrated": {
+          "seconds": 0.5317517849616706,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q04",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 1,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.5143394980113953,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.512978152022697,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "direct": {
+          "seconds": 0.5095462930039503,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q04",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 2,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.5747394220088609,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "direct": {
+          "seconds": 0.5590800319914706,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        },
+        "transfer": {
+          "seconds": 0.5683291209861636,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q04",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 3,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.6584266779827885,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        },
+        "transfer": {
+          "seconds": 0.6638487740419805,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.6642023519962095,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q04",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 4,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.6454622119781561,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.6506575039820746,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "direct": {
+          "seconds": 0.6286659229663201,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q05",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 0,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.4938816979993135,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "direct": {
+          "seconds": 0.4993998800055124,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        },
+        "transfer": {
+          "seconds": 0.5028902079793625,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q05",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 1,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.5491468959953636,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        },
+        "transfer": {
+          "seconds": 0.5568316930439323,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.577116554020904,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q05",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 2,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.47371107700746506,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.46851778600830585,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "direct": {
+          "seconds": 0.470959781028796,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q05",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 3,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.4653721589711495,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        },
+        "direct": {
+          "seconds": 0.44579671701649204,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.4440794460242614,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q05",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 4,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.4586553249973804,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        },
+        "transfer": {
+          "seconds": 0.46351342502748594,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.45686313102487475,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q06",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 0,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.2894860689993948,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        },
+        "calibrated": {
+          "seconds": 0.2943776570027694,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        },
+        "direct": {
+          "seconds": 0.49103443702915683,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q06",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 1,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.3099524510325864,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        },
+        "direct": {
+          "seconds": 0.49615792999975383,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.3068855259916745,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q06",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 2,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.4255134050035849,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.3965741730062291,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 3,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        },
+        "calibrated": {
+          "seconds": 0.4091825890354812,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 3,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q06",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 3,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.31690036796499044,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        },
+        "calibrated": {
+          "seconds": 0.31424727803096175,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        },
+        "direct": {
+          "seconds": 0.47865673602791503,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q06",
+        "n1": 12,
+        "n2": 60
+      },
+      "replication": 4,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.2687524440116249,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        },
+        "direct": {
+          "seconds": 0.41531171899987385,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.26633148099062964,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q07",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 0,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.5464078389923088,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.5476684310124256,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        },
+        "calibrated": {
+          "seconds": 0.541326250997372,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q07",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 1,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.5241949880146421,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.524784886976704,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "direct": {
+          "seconds": 0.5136300000012852,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q07",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 2,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.5362079830374569,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        },
+        "direct": {
+          "seconds": 0.5301125349942595,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.5366599709959701,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q07",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 3,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.5713400050299242,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        },
+        "transfer": {
+          "seconds": 0.5733074829913676,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.5703140400000848,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "distributed",
+        "id": "Q07",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 4,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.5497376340208575,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "calibrated": {
+          "seconds": 0.5432523739873432,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "direct": {
+          "seconds": 0.5325763419969007,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q08",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 0,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.5499545939965174,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        },
+        "direct": {
+          "seconds": 0.5396799350273795,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 0
+          },
+          "selected_model": "joint"
+        },
+        "transfer": {
+          "seconds": 0.5450086229830049,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 5,
+            "scores": 5
+          },
+          "selected_model": "joint"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q08",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 1,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.3869124140474014,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.4004874439560808,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        },
+        "calibrated": {
+          "seconds": 0.3992888969951309,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q08",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 2,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.4695625299937092,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        },
+        "calibrated": {
+          "seconds": 0.47456754301674664,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        },
+        "direct": {
+          "seconds": 0.4600074960035272,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q08",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 3,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.5073562290053815,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        },
+        "direct": {
+          "seconds": 0.5049728630110621,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.5058247090200894,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "lower_half",
+        "id": "Q08",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 4,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.4304985780036077,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.44105543300975114,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        },
+        "calibrated": {
+          "seconds": 0.45706911699380726,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 5
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q09",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 0,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.3025840829941444,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        },
+        "calibrated": {
+          "seconds": 0.3005698549677618,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        },
+        "direct": {
+          "seconds": 0.47734603204298764,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q09",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 1,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.27438161795726046,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        },
+        "direct": {
+          "seconds": 0.4552559770527296,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.2732520140125416,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q09",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 2,
+      "order": [
+        "direct",
+        "transfer",
+        "calibrated"
+      ],
+      "methods": {
+        "direct": {
+          "seconds": 0.526698257017415,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.3006433169939555,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        },
+        "calibrated": {
+          "seconds": 0.3015643719700165,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q09",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 3,
+      "order": [
+        "transfer",
+        "calibrated",
+        "direct"
+      ],
+      "methods": {
+        "transfer": {
+          "seconds": 0.2839027030277066,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        },
+        "calibrated": {
+          "seconds": 0.28545256901998073,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        },
+        "direct": {
+          "seconds": 0.4636571650044061,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        }
+      }
+    },
+    {
+      "scenario": {
+        "geometry": "outside",
+        "id": "Q09",
+        "n1": 20,
+        "n2": 60
+      },
+      "replication": 4,
+      "order": [
+        "calibrated",
+        "direct",
+        "transfer"
+      ],
+      "methods": {
+        "calibrated": {
+          "seconds": 0.3053286799695343,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        },
+        "direct": {
+          "seconds": 0.4922048350563273,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 4,
+            "scores": 0
+          },
+          "selected_model": "independent"
+        },
+        "transfer": {
+          "seconds": 0.32153654599096626,
+          "counts": {
+            "marginal_fits": 6,
+            "diagonal_fits": 5,
+            "joint_fits": 0,
+            "scores": 1
+          },
+          "selected_model": "independent"
+        }
+      }
+    }
+  ],
+  "methods": {
+    "direct": {
+      "seconds": {
+        "estimate": 0.4930404489834069,
+        "ci95": [
+          0.4832806417316573,
+          0.5025379150542236
+        ]
+      },
+      "saving_vs_direct_percent": {
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "transfer": {
+      "seconds": {
+        "estimate": 0.449506499670032,
+        "ci95": [
+          0.437694228520106,
+          0.46196124989820725
+        ]
+      },
+      "saving_vs_direct_percent": {
+        "estimate": 8.82969123590913,
+        "ci95": [
+          6.661927741686038,
+          10.815869943842822
+        ]
+      }
+    },
+    "calibrated": {
+      "seconds": {
+        "estimate": 0.4505707949141247,
+        "ci95": [
+          0.43883063257752736,
+          0.4625890031156207
+        ]
+      },
+      "saving_vs_direct_percent": {
+        "estimate": 8.613827558540022,
+        "ci95": [
+          6.509033279198385,
+          10.515030692568638
+        ]
+      }
+    }
+  }
+}

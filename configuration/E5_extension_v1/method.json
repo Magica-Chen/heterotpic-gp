@@ -1,0 +1,71 @@
+{
+  "experiment": "E5_extension",
+  "scenarios": [
+    {
+      "id": "separable_isotopic",
+      "family": "separable",
+      "geometry": "isotopic"
+    },
+    {
+      "id": "separable_interleaved",
+      "family": "separable",
+      "geometry": "interleaved"
+    },
+    {
+      "id": "separable_separated",
+      "family": "separable",
+      "geometry": "separated"
+    },
+    {
+      "id": "original_lmc_isotopic",
+      "family": "original_lmc",
+      "geometry": "isotopic"
+    },
+    {
+      "id": "original_lmc_interleaved",
+      "family": "original_lmc",
+      "geometry": "interleaved"
+    },
+    {
+      "id": "original_lmc_separated",
+      "family": "original_lmc",
+      "geometry": "separated"
+    }
+  ],
+  "fit_config": {
+    "kernel": "matern32",
+    "ard": false,
+    "maxiter": 1000,
+    "ftol": 1e-08,
+    "gtol": 1e-05,
+    "lengthscale_bounds": [
+      0.01,
+      3.0
+    ],
+    "signal_variance_bounds": [
+      0.0025,
+      25.0
+    ],
+    "noise_variance_bounds": [
+      1e-06,
+      2.0
+    ],
+    "partial_correlation_limit": 0.995,
+    "jitter_scale": 1.0,
+    "jitter_ladder": [
+      1e-10,
+      1e-09,
+      1e-08,
+      1e-07,
+      1e-06,
+      1e-05
+    ],
+    "starts": 4
+  },
+  "evaluation_datasets_per_cell": 300,
+  "design": "Original E5 n16 each, target linspace[0,1]; auxiliary identical, linspace endpointFalse plus.5/16, or linspace[1.25,2.25]. Target120-point grid[0,1].",
+  "generator": "Original E5 separable Matern32 unit variance/rho.7/ell.16/noise.01; original E5-LMC loadings[[.78,.44],[.58,.28]],scales.09/.34,noise.01. Original all-output train/test multivariate_normal SVD draw with1e-8 latent jitter and per-output noise order, new disjoint seeds.",
+  "fitting": "Paired revised correlation-only and full covariance estimation, same frozen float64 four-start fitter/bounds/tolerances. Correlation control fixes signal1/noise.01/ell.16 in both families; under LMC these are working assumptions, not true nuisance values. Each mode has its own independent comparator. Failed joint fits fall back to own independent rule.",
+  "scope": "Fresh extension of original generating designs, not a replay of original rho optimizer or its sequential seed stream. Original80-dataset tables retained with separate paired intervals. No cross-validation selection experiment; E6/E8 assess complete procedures.",
+  "assessment": "Original target output1, grid[0,1]. Conditional latent risk under actual generating covariance including1e-8 draw jitter; latent RMSE, observed MLPD/coverage/width, 2000 dataset-paired resamples per fixed family/geometry. Also compare against common fully fitted independent baseline."
+}

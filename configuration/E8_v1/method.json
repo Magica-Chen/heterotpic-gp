@@ -1,0 +1,467 @@
+{
+  "experiment_id": "E8",
+  "scenarios": [
+    {
+      "id": "B01",
+      "family": "lmc_positive",
+      "geometry": "isotopic",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B02",
+      "family": "lmc_positive",
+      "geometry": "isotopic",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B03",
+      "family": "lmc_positive",
+      "geometry": "interleaved",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B04",
+      "family": "lmc_positive",
+      "geometry": "interleaved",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B05",
+      "family": "lmc_positive",
+      "geometry": "separated",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B06",
+      "family": "lmc_positive",
+      "geometry": "separated",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B07",
+      "family": "lmc_cancelling",
+      "geometry": "isotopic",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B08",
+      "family": "lmc_cancelling",
+      "geometry": "isotopic",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B09",
+      "family": "lmc_cancelling",
+      "geometry": "interleaved",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B10",
+      "family": "lmc_cancelling",
+      "geometry": "interleaved",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B11",
+      "family": "lmc_cancelling",
+      "geometry": "separated",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B12",
+      "family": "lmc_cancelling",
+      "geometry": "separated",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B13",
+      "family": "ar_fidelity",
+      "geometry": "isotopic",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B14",
+      "family": "ar_fidelity",
+      "geometry": "isotopic",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B15",
+      "family": "ar_fidelity",
+      "geometry": "interleaved",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B16",
+      "family": "ar_fidelity",
+      "geometry": "interleaved",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B17",
+      "family": "ar_fidelity",
+      "geometry": "separated",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B18",
+      "family": "ar_fidelity",
+      "geometry": "separated",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B19",
+      "family": "trend_confounded",
+      "geometry": "isotopic",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B20",
+      "family": "trend_confounded",
+      "geometry": "isotopic",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B21",
+      "family": "trend_confounded",
+      "geometry": "interleaved",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B22",
+      "family": "trend_confounded",
+      "geometry": "interleaved",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B23",
+      "family": "trend_confounded",
+      "geometry": "separated",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B24",
+      "family": "trend_confounded",
+      "geometry": "separated",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B25",
+      "family": "heteroscedastic",
+      "geometry": "isotopic",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B26",
+      "family": "heteroscedastic",
+      "geometry": "isotopic",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B27",
+      "family": "heteroscedastic",
+      "geometry": "interleaved",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B28",
+      "family": "heteroscedastic",
+      "geometry": "interleaved",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B29",
+      "family": "heteroscedastic",
+      "geometry": "separated",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B30",
+      "family": "heteroscedastic",
+      "geometry": "separated",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": true
+    },
+    {
+      "id": "B31",
+      "family": "heavy_tailed",
+      "geometry": "isotopic",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": false
+    },
+    {
+      "id": "B32",
+      "family": "heavy_tailed",
+      "geometry": "isotopic",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": false
+    },
+    {
+      "id": "B33",
+      "family": "heavy_tailed",
+      "geometry": "interleaved",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": false
+    },
+    {
+      "id": "B34",
+      "family": "heavy_tailed",
+      "geometry": "interleaved",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": false
+    },
+    {
+      "id": "B35",
+      "family": "heavy_tailed",
+      "geometry": "separated",
+      "n1": 20,
+      "n2": 20,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": false
+    },
+    {
+      "id": "B36",
+      "family": "heavy_tailed",
+      "geometry": "separated",
+      "n1": 40,
+      "n2": 40,
+      "working_kernel": "matern32",
+      "dimension": 1,
+      "replicates": 200,
+      "conditional_reference": false
+    }
+  ],
+  "fit_config": {
+    "kernel": "matern32",
+    "ard": false,
+    "maxiter": 1000,
+    "ftol": 1e-08,
+    "gtol": 1e-05,
+    "lengthscale_bounds": [
+      0.01,
+      3.0
+    ],
+    "signal_variance_bounds": [
+      0.0025,
+      25.0
+    ],
+    "noise_variance_bounds": [
+      1e-06,
+      2.0
+    ],
+    "partial_correlation_limit": 0.995,
+    "jitter_scale": 1.0,
+    "jitter_ladder": [
+      1e-10,
+      1e-09,
+      1e-08,
+      1e-07,
+      1e-06,
+      1e-05
+    ],
+    "starts": 4
+  },
+  "screen_config": {
+    "scale_multipliers": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "rho_max": 0.95,
+    "variance_floor": 1e-10,
+    "marginal_scale_ratio_limit": 4.0,
+    "opportunity_threshold": 0.01,
+    "information_threshold": 64.0,
+    "material_fraction": 0.02,
+    "folds": 4
+  },
+  "family_definitions": {
+    "lmc_positive": "unit-normalised loading rows (1,.25) and (.2,1); scales .06,.35",
+    "lmc_cancelling": "orthogonal signed loadings sqrt(.8),sqrt(.2); scales .06,.35",
+    "ar_fidelity": "target is high fidelity: .7 low GP (.30) plus sqrt(.51) discrepancy (.06)",
+    "trend_confounded": "independent unit Matern32 scale .15, means 2x and -1.5x",
+    "heteroscedastic": "rho .7; target .01+.19*x^2 on entire domain; auxiliary noise .02",
+    "heavy_tailed": "rho .7; independent t5 noise scaled to variance .05; no exact conditional labels"
+  },
+  "default_noise_variance": 0.05,
+  "default_signal_variance": 1.0,
+  "default_lengthscale": 0.15,
+  "richer_models": "two rank-one LMC components; AR discrepancy; independently fitted marginal mixtures; profiled linear means with universal-kriging variance; known noise-shape sensitivity with estimated multipliers",
+  "noise_shape_sensitivity": "quadratic target shape, constant .02 auxiliary shape; multipliers bounded like variance coordinates, [1e-6,2]",
+  "mean_estimation": "profile ML, output-specific intercept/slope; predictive variance includes GLS mean-estimation term",
+  "heavy_tail_reporting": "repeated-sampling latent risk only; exact-label errors/regret unavailable; Gaussian working inference is a stress test",
+  "material_fractions": [
+    0.0,
+    0.01,
+    0.02,
+    0.05
+  ],
+  "evaluation_replicates": 200
+}

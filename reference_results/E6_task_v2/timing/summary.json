@@ -1,0 +1,69 @@
+{
+  "pairs": 240,
+  "direct_seconds": {
+    "estimate": 0.4407885954004693,
+    "ci95": [
+      0.4337411417519222,
+      0.44807973485363617
+    ]
+  },
+  "screen_seconds": {
+    "estimate": 0.37903022348388427,
+    "ci95": [
+      0.37141429109456725,
+      0.38660566394357077
+    ]
+  },
+  "saving_percent": {
+    "estimate": 14.010882441383432,
+    "ci95": [
+      12.552917837977812,
+      15.672927754929395
+    ]
+  },
+  "paired_difference_seconds": {
+    "estimate": -0.06175837191658502,
+    "ci95": [
+      -0.0694579298326819,
+      -0.05486450323256875
+    ]
+  },
+  "hardware": {
+    "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "cpu": "Intel(R) Core(TM) Ultra 7 265K",
+    "workers": 1,
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "scope": "all fits, restarts, scores and predictions; excludes loading and assessment",
+  "by_geometry": {
+    "colocated": {
+      "estimate": 12.798215168897553,
+      "ci95": [
+        7.14804348476288,
+        18.82948337272951
+      ]
+    },
+    "infill": {
+      "estimate": -2.3182643316278284,
+      "ci95": [
+        -2.6973478924017846,
+        -1.9104599262505086
+      ]
+    },
+    "partial": {
+      "estimate": -2.106197148837996,
+      "ci95": [
+        -2.7611789407447467,
+        -1.2774223687419484
+      ]
+    },
+    "remote": {
+      "estimate": 49.64308902813157,
+      "ci95": [
+        48.38670443110866,
+        51.02801046764403
+      ]
+    }
+  }
+}

@@ -1,0 +1,1472 @@
+{
+  "experiment_id": "E8_opportunity_v2",
+  "datasets": 8000,
+  "cases": [
+    {
+      "case": {
+        "id": "B01",
+        "family": "lmc_positive",
+        "n1": 8,
+        "n2": 8,
+        "geometry": "interleaved"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.6743488056495672,
+          "risk_ci95": [
+            0.6541333759166209,
+            0.6947845707918646
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.2539626827283677,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.6034449200269724,
+          "risk_ci95": [
+            0.588018750477741,
+            0.6193245718614125
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.1829070637267383,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.6876595454270515,
+          "risk_ci95": [
+            0.6696057946947117,
+            0.7065344561326983
+          ],
+          "risk_reduction_percent": -1.9738657006536542,
+          "risk_reduction_ci95": [
+            -4.537720232553092,
+            0.5283111272433707
+          ],
+          "oracle_deviation": 0.301040332812347,
+          "excess_oracle_deviation": 0.04707765008397929,
+          "mean_accounting_residual": 0.0011363978098434535
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.524935140679391,
+          "risk_ci95": [
+            0.5145348705872466,
+            0.5363383004678809
+          ],
+          "risk_reduction_percent": 13.010264357527813,
+          "risk_reduction_ci95": [
+            10.363136785109281,
+            15.535318155584322
+          ],
+          "oracle_deviation": 0.1383159280646871,
+          "excess_oracle_deviation": -0.044591135662051216,
+          "mean_accounting_residual": 0.0012881311888783276
+        }
+      ],
+      "oracle_independent_risk": 0.4192497251113557,
+      "oracle_joint_risk": 0.3866192126147036,
+      "oracle_gain_percent": 7.78307308084345,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 1468,
+        "above_gradient_tolerance": 1348,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B02",
+        "family": "lmc_positive",
+        "n1": 8,
+        "n2": 8,
+        "geometry": "separated"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.6524055445163178,
+          "risk_ci95": [
+            0.6328900196830151,
+            0.6731101165129195
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.23301787155943623,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.5899603329398648,
+          "risk_ci95": [
+            0.5760619899512536,
+            0.6042729229296955
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.17058252553459527,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.7419271473356294,
+          "risk_ci95": [
+            0.7203412982889158,
+            0.7648396825588092
+          ],
+          "risk_reduction_percent": -13.721772227684138,
+          "risk_reduction_ci95": [
+            -16.87033219552608,
+            -10.81589794802261
+          ],
+          "oracle_deviation": 0.3227573470863051,
+          "excess_oracle_deviation": 0.08973947552686888,
+          "mean_accounting_residual": 0.00013794784552607908
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.6369820852024951,
+          "risk_ci95": [
+            0.619688751443855,
+            0.6542406469633941
+          ],
+          "risk_reduction_percent": -7.970324382372196,
+          "risk_reduction_ci95": [
+            -9.86093059976294,
+            -6.210793757257559
+          ],
+          "oracle_deviation": 0.2178122849531703,
+          "excess_oracle_deviation": 0.04722975941857501,
+          "mean_accounting_residual": 0.00012808229391435277
+        }
+      ],
+      "oracle_independent_risk": 0.4192497251113557,
+      "oracle_joint_risk": 0.4191698002493245,
+      "oracle_gain_percent": 0.01906378400368114,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 1392,
+        "above_gradient_tolerance": 1306,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B03",
+        "family": "lmc_positive",
+        "n1": 8,
+        "n2": 32,
+        "geometry": "interleaved"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.6573019836263623,
+          "risk_ci95": [
+            0.6352801165651014,
+            0.6795301151760217
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.23560587429580043,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.5917265110597181,
+          "risk_ci95": [
+            0.5752795923033727,
+            0.6090509595219336
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.17030850738057496,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.6325859002603779,
+          "risk_ci95": [
+            0.6145979309464052,
+            0.6520254510883541
+          ],
+          "risk_reduction_percent": 3.7602325843632434,
+          "risk_reduction_ci95": [
+            0.9026714534072009,
+            6.695111332986795
+          ],
+          "oracle_deviation": 0.31652971422057247,
+          "excess_oracle_deviation": 0.08092383992477208,
+          "mean_accounting_residual": 0.0024463842192056114
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.5289829408681531,
+          "risk_ci95": [
+            0.5127990054660493,
+            0.5467074183728406
+          ],
+          "risk_reduction_percent": 10.603474581390316,
+          "risk_reduction_ci95": [
+            7.123273149727293,
+            14.000459248051891
+          ],
+          "oracle_deviation": 0.21292675482834653,
+          "excess_oracle_deviation": 0.042618247447771554,
+          "mean_accounting_residual": 0.00216827856778766
+        }
+      ],
+      "oracle_independent_risk": 0.4192497251113557,
+      "oracle_joint_risk": 0.3160561860398065,
+      "oracle_gain_percent": 24.613859685689775,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 1273,
+        "above_gradient_tolerance": 1410,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B04",
+        "family": "lmc_positive",
+        "n1": 8,
+        "n2": 32,
+        "geometry": "separated"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.6394580037934514,
+          "risk_ci95": [
+            0.6214135350631718,
+            0.6588702254848534
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.22020518048244836,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.5809631839882043,
+          "risk_ci95": [
+            0.5678816067631586,
+            0.595001733083379
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.16174744657128226,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.7060586882327057,
+          "risk_ci95": [
+            0.6860149473831125,
+            0.7265273252941524
+          ],
+          "risk_reduction_percent": -10.415177235120932,
+          "risk_reduction_ci95": [
+            -13.224521492657763,
+            -7.779827605816945
+          ],
+          "oracle_deviation": 0.2869208031764176,
+          "excess_oracle_deviation": 0.06671562269396925,
+          "mean_accounting_residual": 3.098199647083577e-06
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.6304398346625679,
+          "risk_ci95": [
+            0.6130069180780012,
+            0.648515606721196
+          ],
+          "risk_reduction_percent": -8.516314292880933,
+          "risk_reduction_ci95": [
+            -10.80048365348515,
+            -6.413706338211575
+          ],
+          "oracle_deviation": 0.21130194960628032,
+          "excess_oracle_deviation": 0.049554503034998074,
+          "mean_accounting_residual": -3.3987694433468274e-05
+        }
+      ],
+      "oracle_independent_risk": 0.4192497251113557,
+      "oracle_joint_risk": 0.4191378850562881,
+      "oracle_gain_percent": 0.026676238138956254,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 1403,
+        "above_gradient_tolerance": 1409,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B05",
+        "family": "lmc_positive",
+        "n1": 16,
+        "n2": 16,
+        "geometry": "interleaved"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.26963145619789075,
+          "risk_ci95": [
+            0.2539908004967807,
+            0.2855314511939236
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.13132782076442018,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.21880161358074826,
+          "risk_ci95": [
+            0.2074801316466207,
+            0.230991417719769
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.08015770513864101,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.40779971905716283,
+          "risk_ci95": [
+            0.3870360239234194,
+            0.4284678672397866
+          ],
+          "risk_reduction_percent": -51.243376721544756,
+          "risk_reduction_ci95": [
+            -61.966424855625775,
+            -41.69169461311703
+          ],
+          "oracle_deviation": 0.2754975285219641,
+          "excess_oracle_deviation": 0.14416970775754384,
+          "mean_accounting_residual": -0.0008068864893138739
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.2309397169272488,
+          "risk_ci95": [
+            0.22096711125904966,
+            0.24181798733276322
+          ],
+          "risk_reduction_percent": -5.5475383146665,
+          "risk_reduction_ci95": [
+            -11.896155512512724,
+            0.28568054151125216
+          ],
+          "oracle_deviation": 0.09863752639205028,
+          "excess_oracle_deviation": 0.018479821253409277,
+          "mean_accounting_residual": -0.00046661348067691955
+        }
+      ],
+      "oracle_independent_risk": 0.13911052192278434,
+      "oracle_joint_risk": 0.13230219053519857,
+      "oracle_gain_percent": 4.894188659118715,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 1075,
+        "above_gradient_tolerance": 1529,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B06",
+        "family": "lmc_positive",
+        "n1": 16,
+        "n2": 16,
+        "geometry": "separated"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.2423868313953342,
+          "risk_ci95": [
+            0.2294480464745086,
+            0.25582330746141
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.10327598605545836,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.20996266556113222,
+          "risk_ci95": [
+            0.19892107529283812,
+            0.22096040668712008
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.07085492002910782,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.4511000997243425,
+          "risk_ci95": [
+            0.4275824538952498,
+            0.4743040372456872
+          ],
+          "risk_reduction_percent": -86.10751133942416,
+          "risk_reduction_ci95": [
+            -99.930999975195,
+            -73.95619173285152
+          ],
+          "oracle_deviation": 0.3119921174763484,
+          "excess_oracle_deviation": 0.20871613142089004,
+          "mean_accounting_residual": 3.2341709138572483e-07
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.24353510901584133,
+          "risk_ci95": [
+            0.23024433340531636,
+            0.25730304005681026
+          ],
+          "risk_reduction_percent": -15.98972053673715,
+          "risk_reduction_ci95": [
+            -20.40271666438125,
+            -11.604672132564087
+          ],
+          "oracle_deviation": 0.1044271267678471,
+          "excess_oracle_deviation": 0.03357220673873929,
+          "mean_accounting_residual": -2.776390759962055e-06
+        }
+      ],
+      "oracle_independent_risk": 0.13911052192278434,
+      "oracle_joint_risk": 0.13910798224799417,
+      "oracle_gain_percent": 0.0018256525495363718,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 1324,
+        "above_gradient_tolerance": 1541,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B07",
+        "family": "lmc_positive",
+        "n1": 16,
+        "n2": 64,
+        "geometry": "interleaved"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.2482037050992499,
+          "risk_ci95": [
+            0.23442825763041106,
+            0.26228094340160046
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.10908314863997678,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.21033243475532312,
+          "risk_ci95": [
+            0.19922282546070313,
+            0.22156059447532817
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.07169491523235984,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.38619616789974737,
+          "risk_ci95": [
+            0.36672734820894815,
+            0.40612494783126607
+          ],
+          "risk_reduction_percent": -55.59645563925728,
+          "risk_reduction_ci95": [
+            -67.01686403038194,
+            -45.1998774442753
+          ],
+          "oracle_deviation": 0.2680165114196907,
+          "excess_oracle_deviation": 0.15893336277971393,
+          "mean_accounting_residual": 1.0034536488900958e-05
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.18442637415857913,
+          "risk_ci95": [
+            0.17489669190633553,
+            0.19436151785318342
+          ],
+          "risk_reduction_percent": 12.316721682454812,
+          "risk_reduction_ci95": [
+            6.229075286120688,
+            18.150501909385675
+          ],
+          "oracle_deviation": 0.06624671767852248,
+          "excess_oracle_deviation": -0.005448197553837348,
+          "mean_accounting_residual": -0.0004730023998211416
+        }
+      ],
+      "oracle_independent_risk": 0.13911052192278434,
+      "oracle_joint_risk": 0.11817965648005646,
+      "oracle_gain_percent": 15.046213006336007,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 991,
+        "above_gradient_tolerance": 1579,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B08",
+        "family": "lmc_positive",
+        "n1": 16,
+        "n2": 64,
+        "geometry": "separated"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.2453426467233863,
+          "risk_ci95": [
+            0.23149936828764947,
+            0.25901615139481354
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.10621802733882085,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.20974934267457204,
+          "risk_ci95": [
+            0.19910293830524903,
+            0.22067515215849198
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.0706267620127745,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.44950124070761366,
+          "risk_ci95": [
+            0.425537888981817,
+            0.4734948383681522
+          ],
+          "risk_reduction_percent": -83.21365922754056,
+          "risk_reduction_ci95": [
+            -97.8160654611332,
+            -69.559334995485
+          ],
+          "oracle_deviation": 0.3103937658705387,
+          "excess_oracle_deviation": 0.20417573853171786,
+          "mean_accounting_residual": 1.4097461781131804e-05
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.25015255890103366,
+          "risk_ci95": [
+            0.23546568044883787,
+            0.2647483730580311
+          ],
+          "risk_reduction_percent": -19.262618757832083,
+          "risk_reduction_ci95": [
+            -25.45228402483068,
+            -13.731211095918932
+          ],
+          "oracle_deviation": 0.11104508406395854,
+          "excess_oracle_deviation": 0.040418322051184036,
+          "mean_accounting_residual": 1.2058739013290354e-05
+        }
+      ],
+      "oracle_independent_risk": 0.13911052192278434,
+      "oracle_joint_risk": 0.139107474837075,
+      "oracle_gain_percent": 0.002190406352597929,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 1269,
+        "above_gradient_tolerance": 1563,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B09",
+        "family": "ar_fidelity",
+        "n1": 8,
+        "n2": 8,
+        "geometry": "interleaved"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.39151262843936496,
+          "risk_ci95": [
+            0.3776646694404396,
+            0.40539599874796706
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.1346799804326867,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.351439933858965,
+          "risk_ci95": [
+            0.3409450824593508,
+            0.362055871768945
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.09461167782940191,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.39567825415477315,
+          "risk_ci95": [
+            0.38532750368076263,
+            0.4063746112671546
+          ],
+          "risk_reduction_percent": -1.0639824651411889,
+          "risk_reduction_ci95": [
+            -4.262506129434821,
+            2.148502346653078
+          ],
+          "oracle_deviation": 0.15330301468167992,
+          "excess_oracle_deviation": 0.018623034248993194,
+          "mean_accounting_residual": 0.0003814055619679674
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.3436037408186498,
+          "risk_ci95": [
+            0.33609586393916113,
+            0.3509369197778462
+          ],
+          "risk_reduction_percent": 2.229738935547343,
+          "risk_reduction_ci95": [
+            -0.19827308939107277,
+            4.798740356927917
+          ],
+          "oracle_deviation": 0.10122850134555673,
+          "excess_oracle_deviation": 0.006616823516154817,
+          "mean_accounting_residual": 0.0003770135848526401
+        }
+      ],
+      "oracle_independent_risk": 0.2564512424447104,
+      "oracle_joint_risk": 0.24237523947309297,
+      "oracle_gain_percent": 5.488763804547425,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 1273,
+        "above_gradient_tolerance": 1289,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B10",
+        "family": "ar_fidelity",
+        "n1": 8,
+        "n2": 8,
+        "geometry": "separated"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.3936312323329608,
+          "risk_ci95": [
+            0.3801704687080878,
+            0.40778979075202026
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.13719647124901355,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.35558965300144074,
+          "risk_ci95": [
+            0.3456843703920502,
+            0.36661461746085766
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.09914918365336652,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.44937298962507327,
+          "risk_ci95": [
+            0.4323515796259264,
+            0.46578457229501796
+          ],
+          "risk_reduction_percent": -14.160908158060526,
+          "risk_reduction_ci95": [
+            -18.18513739315523,
+            -10.339909207327828
+          ],
+          "oracle_deviation": 0.19296225615051382,
+          "excess_oracle_deviation": 0.055765784901500255,
+          "mean_accounting_residual": -1.648136076350809e-05
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.3601278179139789,
+          "risk_ci95": [
+            0.34949276811826724,
+            0.37100640596144413
+          ],
+          "risk_reduction_percent": -1.2762364917630942,
+          "risk_reduction_ci95": [
+            -2.3955902537959344,
+            -0.1115352202269744
+          ],
+          "oracle_deviation": 0.10371708443941928,
+          "excess_oracle_deviation": 0.0045679007860527625,
+          "mean_accounting_residual": -1.0773096636303506e-05
+        }
+      ],
+      "oracle_independent_risk": 0.2564512424447104,
+      "oracle_joint_risk": 0.25641073347455945,
+      "oracle_gain_percent": 0.015795973443055722,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 1389,
+        "above_gradient_tolerance": 1270,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B11",
+        "family": "ar_fidelity",
+        "n1": 8,
+        "n2": 32,
+        "geometry": "interleaved"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.3991879891138396,
+          "risk_ci95": [
+            0.3851567398278261,
+            0.4139422532437017
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.14209562755078092,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.3596866091681087,
+          "risk_ci95": [
+            0.34881953246723113,
+            0.37117868489162675
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.10264596553614916,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.4061928010224731,
+          "risk_ci95": [
+            0.3950018986817108,
+            0.4180298104219077
+          ],
+          "risk_reduction_percent": -1.7547651982674939,
+          "risk_reduction_ci95": [
+            -5.147966066458146,
+            1.6482381469546263
+          ],
+          "oracle_deviation": 0.16620378515489567,
+          "excess_oracle_deviation": 0.024108157604114732,
+          "mean_accounting_residual": 0.0006411191183486337
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.33769550068204807,
+          "risk_ci95": [
+            0.3304574337109633,
+            0.3451922383106484
+          ],
+          "risk_reduction_percent": 6.113963635433118,
+          "risk_reduction_ci95": [
+            3.5512929927009496,
+            8.801382630016748
+          ],
+          "oracle_deviation": 0.09770648481447052,
+          "excess_oracle_deviation": -0.004939480721678652,
+          "mean_accounting_residual": 0.0005894011872490598
+        }
+      ],
+      "oracle_independent_risk": 0.2564512424447104,
+      "oracle_joint_risk": 0.23998901586757754,
+      "oracle_gain_percent": 6.419242277869652,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 1007,
+        "above_gradient_tolerance": 1314,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B12",
+        "family": "ar_fidelity",
+        "n1": 8,
+        "n2": 32,
+        "geometry": "separated"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.3897984867982493,
+          "risk_ci95": [
+            0.3770808737098685,
+            0.40278303444798574
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.13340076208712806,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.354070654665114,
+          "risk_ci95": [
+            0.34437869686925343,
+            0.36407555388173596
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.09767504569224947,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.4161199480215793,
+          "risk_ci95": [
+            0.4013862933533701,
+            0.43051384249691277
+          ],
+          "risk_reduction_percent": -6.7525816838158725,
+          "risk_reduction_ci95": [
+            -9.853500297675131,
+            -4.032776025512258
+          ],
+          "oracle_deviation": 0.15973863163285226,
+          "excess_oracle_deviation": 0.0263378695457242,
+          "mean_accounting_residual": -5.3517733589587835e-05
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.34525268038692103,
+          "risk_ci95": [
+            0.33701833484456617,
+            0.35371239416706846
+          ],
+          "risk_reduction_percent": 2.490456117164852,
+          "risk_reduction_ci95": [
+            1.3141194838294954,
+            3.6659217075922537
+          ],
+          "oracle_deviation": 0.08887136399819415,
+          "excess_oracle_deviation": -0.008803681694055338,
+          "mean_accounting_residual": -5.563347184599221e-05
+        }
+      ],
+      "oracle_independent_risk": 0.2564512424447104,
+      "oracle_joint_risk": 0.2563813163887268,
+      "oracle_gain_percent": 0.027266803356851277,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 1182,
+        "above_gradient_tolerance": 1330,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B13",
+        "family": "ar_fidelity",
+        "n1": 16,
+        "n2": 16,
+        "geometry": "interleaved"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.15848139804036834,
+          "risk_ci95": [
+            0.15046817285593356,
+            0.16660199654876345
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.06644342325668563,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.128215595788896,
+          "risk_ci95": [
+            0.12361231194956275,
+            0.13345211078790667
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.03605704994201169,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.27193288289422635,
+          "risk_ci95": [
+            0.258416716967589,
+            0.28498725196668856
+          ],
+          "risk_reduction_percent": -71.58662546941923,
+          "risk_reduction_ci95": [
+            -81.86314288111751,
+            -61.2310534324153
+          ],
+          "oracle_deviation": 0.1805350913218665,
+          "excess_oracle_deviation": 0.11409166806518087,
+          "mean_accounting_residual": -6.0219329684294e-05
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.14578755682008573,
+          "risk_ci95": [
+            0.13890177452065386,
+            0.15322703430632356
+          ],
+          "risk_reduction_percent": -13.705010629222958,
+          "risk_reduction_ci95": [
+            -18.665103613967197,
+            -9.091242153271832
+          ],
+          "oracle_deviation": 0.05438976524772559,
+          "excess_oracle_deviation": 0.018332715305713898,
+          "mean_accounting_residual": 6.035173351728179e-05
+        }
+      ],
+      "oracle_independent_risk": 0.0920981941133668,
+      "oracle_joint_risk": 0.09139779157236026,
+      "oracle_gain_percent": 0.760495412260076,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 994,
+        "above_gradient_tolerance": 1401,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B14",
+        "family": "ar_fidelity",
+        "n1": 16,
+        "n2": 16,
+        "geometry": "separated"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.16955685861188693,
+          "risk_ci95": [
+            0.16087141876548244,
+            0.17873919020862927
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.07745756382016995,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.13222845091024202,
+          "risk_ci95": [
+            0.12693377652159904,
+            0.13770484967514202
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.04012796604697716,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.2310468116499574,
+          "risk_ci95": [
+            0.21983130964414443,
+            0.2432587321303938
+          ],
+          "risk_reduction_percent": -36.265093338878174,
+          "risk_reduction_ci95": [
+            -44.63150270259071,
+            -27.866532160052106
+          ],
+          "oracle_deviation": 0.1389513851399077,
+          "excess_oracle_deviation": 0.06149382131973776,
+          "mean_accounting_residual": 1.1006783502270912e-06
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.1396345376929868,
+          "risk_ci95": [
+            0.1337890335602918,
+            0.14591899802119104
+          ],
+          "risk_reduction_percent": -5.600978255256206,
+          "risk_reduction_ci95": [
+            -9.132241632603947,
+            -2.8084281081382625
+          ],
+          "oracle_deviation": 0.04753911118293718,
+          "excess_oracle_deviation": 0.007411145135960032,
+          "mean_accounting_residual": 2.2907498980432456e-06
+        }
+      ],
+      "oracle_independent_risk": 0.0920981941133668,
+      "oracle_joint_risk": 0.09209542651004954,
+      "oracle_gain_percent": 0.0030050570957507183,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 1269,
+        "above_gradient_tolerance": 1400,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B15",
+        "family": "ar_fidelity",
+        "n1": 16,
+        "n2": 64,
+        "geometry": "interleaved"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.1675663910424953,
+          "risk_ci95": [
+            0.15931373699137544,
+            0.17594038856540162
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.07526291604771669,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.1380538935403131,
+          "risk_ci95": [
+            0.1317823877817917,
+            0.14437523469328453
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.04580209098077468,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.28408213164439744,
+          "risk_ci95": [
+            0.2714324103884095,
+            0.2976943799819126
+          ],
+          "risk_reduction_percent": -69.5340753459048,
+          "risk_reduction_ci95": [
+            -80.51870320664972,
+            -59.46481507148716
+          ],
+          "oracle_deviation": 0.19281172197817267,
+          "excess_oracle_deviation": 0.11754880593045598,
+          "mean_accounting_residual": 0.00020528088141197331
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.1471852382451116,
+          "risk_ci95": [
+            0.14013233171433917,
+            0.1547661951004823
+          ],
+          "risk_reduction_percent": -6.61433333796706,
+          "risk_reduction_ci95": [
+            -10.366549069111576,
+            -2.8835907914562946
+          ],
+          "oracle_deviation": 0.05591482857888686,
+          "excess_oracle_deviation": 0.010112737598112176,
+          "mean_accounting_residual": 0.00015360844617169113
+        }
+      ],
+      "oracle_independent_risk": 0.0920981941133668,
+      "oracle_joint_risk": 0.09127040966622477,
+      "oracle_gain_percent": 0.8988063828082038,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 917,
+        "above_gradient_tolerance": 1415,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    },
+    {
+      "case": {
+        "id": "B16",
+        "family": "ar_fidelity",
+        "n1": 16,
+        "n2": 64,
+        "geometry": "separated"
+      },
+      "datasets": 500,
+      "results": [
+        {
+          "method": "independent",
+          "baseline": "independent",
+          "risk": 0.1636933492349465,
+          "risk_ci95": [
+            0.15511847168542378,
+            0.172622800806835
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.07160079885506737,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "mixture_independent",
+          "baseline": "mixture_independent",
+          "risk": 0.12804457156792237,
+          "risk_ci95": [
+            0.12287909541683648,
+            0.13379840674438792
+          ],
+          "risk_reduction_percent": 0.0,
+          "risk_reduction_ci95": [
+            0.0,
+            0.0
+          ],
+          "oracle_deviation": 0.035952750136615856,
+          "excess_oracle_deviation": 0.0,
+          "mean_accounting_residual": null
+        },
+        {
+          "method": "separable",
+          "baseline": "independent",
+          "risk": 0.23757631418520728,
+          "risk_ci95": [
+            0.2257835037192037,
+            0.2496636174501584
+          ],
+          "risk_reduction_percent": -45.134982756213105,
+          "risk_reduction_ci95": [
+            -55.51499235348781,
+            -36.01917980389722
+          ],
+          "oracle_deviation": 0.1454817372788246,
+          "excess_oracle_deviation": 0.07388093842375722,
+          "mean_accounting_residual": -5.643733487603608e-06
+        },
+        {
+          "method": "rich_joint",
+          "baseline": "mixture_independent",
+          "risk": 0.13669589433800014,
+          "risk_ci95": [
+            0.1303857764046674,
+            0.14356301471291186
+          ],
+          "risk_reduction_percent": -6.756493199314262,
+          "risk_reduction_ci95": [
+            -10.0354159600263,
+            -3.7256468321522163
+          ],
+          "oracle_deviation": 0.04460131743161743,
+          "excess_oracle_deviation": 0.008648567295001576,
+          "mean_accounting_residual": -6.372682060235696e-06
+        }
+      ],
+      "oracle_independent_risk": 0.0920981941133668,
+      "oracle_joint_risk": 0.09209457690638272,
+      "oracle_gain_percent": 0.003927554735361216,
+      "fit_diagnostics": {
+        "attempted": 2000,
+        "successful": 2000,
+        "active_bound": 1172,
+        "above_gradient_tolerance": 1516,
+        "failed_starts": 0,
+        "jitter_escalations": 0
+      }
+    }
+  ],
+  "fit_diagnostics": {
+    "attempted": 32000,
+    "successful": 32000,
+    "active_bound": 19398,
+    "above_gradient_tolerance": 22620,
+    "failed_starts": 0,
+    "jitter_escalations": 0
+  },
+  "uncertainty": "2000 paired dataset resamples within each E8 cell; Q2 macro weights shared across all cells plus shared independent reference-run resamples. Intervals are pointwise.",
+  "timing_scope": "Recorded fitting/simulator components on concurrently running workers; no deployed wall-time speedup inferred."
+}
